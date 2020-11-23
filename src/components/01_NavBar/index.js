@@ -10,7 +10,9 @@ function NavBar() {
         <div className="nav__logo">Caroline Liard</div>
         <ul className="nav__links" style={{ transform: open ? 'translateX(0px)' : 'translateX(-500px)' }}>
           <li className="nav__links--li">
-            <div className="nav__logo02">Logo img</div>
+            <div className="nav__logo02">CAROLINE LIARD</div>
+          </li>
+          <li className="nav__links--li">
             <a className="nav__links--a">Welcome</a>
           </li>
           <li className="nav__links--li">
