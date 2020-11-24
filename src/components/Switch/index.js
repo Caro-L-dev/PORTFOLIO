@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 // Stateless component - Component that does not control its own state.
 
 import React from 'react';
 import './switch.scss';
 
-const Switch = ({ isOn, handleToggle }) => (
+const Switch = ({ isOn, handleToggle, onColor }) => (
   <>
     <input
       checked={isOn}
@@ -13,7 +14,7 @@ const Switch = ({ isOn, handleToggle }) => (
       type="checkbox"
     />
     <label
-      style={{ background: isOn && '#06D6A0' }}
+      style={{ background: isOn && onColor }}
       className="react-switch-label"
       htmlFor="react-switch-new"
     >

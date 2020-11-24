@@ -1,10 +1,10 @@
 // == Import npm
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 
 // == Import
 import './styles.scss';
 
-import NavBar from '../01_NavBar';
+// import NavBar from '../01_NavBar';
 // import Welcome from '../02_Welcome';
 // import WhatIDo from '../03_WhatIDo';
 // import PortfolioWeb from '../04_PortfolioWeb';
@@ -21,6 +21,7 @@ function Portfolio() {
     <div className="portfolio">
       <Switch
         isOn={value}
+        onColor="#EF476F"
         handleToggle={() => setValue(!value)}
       />
     </div>
