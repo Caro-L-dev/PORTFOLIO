@@ -3,7 +3,21 @@
 
 body {
   font-family: sans-serif;
+  font-size: 16px;
 }
+
+body ::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body ::-webkit-scrollbar-track {
+  background-color:#1e1e24;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: #6649b8;
+}
+
 
 /* 
   // or you can import your own font
