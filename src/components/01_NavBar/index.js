@@ -40,7 +40,12 @@ function NavBar() {
           {/* WELCOME */}
           <li className="nav-item">
             <a href="#" className="nav-link">
-              <svg
+              <div className="nav-link2">
+
+                <i className="fas fa-home" />
+              </div>
+            
+              {/* <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fad"
@@ -62,7 +67,7 @@ function NavBar() {
                     className="fa-primary"
                   />
                 </g>
-              </svg>
+              </svg> */}
               <span className="link-text">Welcome</span>
             </a>
           </li>

@@ -57,6 +57,14 @@
   margin: 0 1.5rem;
 }
 
+.nav-link2 {
+  width: 2rem;
+  //min-width: 2rem;
+  margin: 0 1.5rem;
+  transition: vars.$transition-speed;
+}
+
+
 .fa-primary {
   color: #ff7eee;
 }
