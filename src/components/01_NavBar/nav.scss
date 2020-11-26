@@ -34,7 +34,8 @@
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: vars.$bg-secondary;
-  color: vars.$text-secondary;
+  // color: vars.$text-secondary;
+  color: #FFE066;
 }
 
 .link-text {
@@ -46,7 +47,7 @@
 }
 
 .switch {
-  bottom: 0;
+  width: auto;
 }
 
 // ICONS //
@@ -57,26 +58,9 @@
   margin: 0 1.5rem;
 }
 
-.nav-link2 {
-  width: 2rem;
-  //min-width: 2rem;
-  margin: 0 1.5rem;
-  transition: vars.$transition-speed;
-}
-
-
-.fa-primary {
-  color: #ff7eee;
-}
-
-.fa-secondary {
-  color: #df49a6;
-}
-
-.fa-primary,
-.fa-secondary {
-  transition: vars.$transition-speed;
-}
+// .icons {
+//   transition: vars.$transition-speed;
+// }
 
 .logo {
   font-weight: bold;

@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 // == Import
 import './styles.scss';
 
+import '../fontawesome';
+
 import NavBar from '../01_NavBar';
 // import Welcome from '../02_Welcome';
 // import WhatIDo from '../03_WhatIDo';
