@@ -1,1 +1,11 @@
 @use 'src/styles/vars' as vars;
+
+.welcome {
+  background-color: blue;
+  height: 100vh;
+}
+
+p {
+  color: white;
+  float: inline-end;
+}
