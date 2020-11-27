@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Switch from '../Switch';
+import SwitchToggle from '../SwitchToggle';
 
 function NavBar() {
   return (
@@ -48,9 +48,9 @@ function NavBar() {
             </a>
           </li>
 
-          {/* SWITCH */}
+          {/* SWITCH TOGGLE */}
           <div className="switch">
-            <Switch />
+            <SwitchToggle />
           </div>
         </ul>
       </nav>
