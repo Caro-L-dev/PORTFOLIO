@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './nav.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import SwitchToggle from '../SwitchToggle';
+import ToggleSwitch from '../ToggleSwitch';
 
 function NavBar() {
+  const [value, setValue] = useState(false);
   return (
     <div>
       {/* LOGO */}
@@ -48,9 +49,13 @@ function NavBar() {
             </a>
           </li>
 
-          {/* SWITCH TOGGLE */}
+          {/* TOGGLE SWITCH*/}
           <div className="switch">
-            <SwitchToggle />
+            <ToggleSwitch
+              isOn={value}
+              onColor="#EF476F"
+              handleToggle={() => setValue(!value)}
+            />
           </div>
         </ul>
       </nav>

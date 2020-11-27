@@ -1,5 +1,5 @@
 // == Import npm
-import React, { useState } from 'react';
+import React from 'react';
 
 // == Import
 import './styles.scss';
@@ -14,19 +14,11 @@ import NavBar from '../01_NavBar';
 // import About from '../06_About';
 // import Contact from '../07_Contact';
 
-// import Switch from '../Switch';
-
 // == Composant
 function Portfolio() {
-  const [value, setValue] = useState(false);
   return (
     <div className="portfolio">
       <NavBar />
-      {/* <Switch
-        isOn={value}
-        onColor="#EF476F"
-        handleToggle={() => setValue(!value)}
-      /> */}
     </div>
   );
 }
