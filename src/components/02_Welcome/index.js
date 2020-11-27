@@ -7,7 +7,9 @@ import './welcome.scss';
 // == Composant
 const Welcome = () => (
   <div className="welcome">
-    <p>Welcome</p>
+
+    <h3>PORTFOLIO | CAROLINE LIARD</h3>
+
   </div>
 );
 

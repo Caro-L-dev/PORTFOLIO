@@ -19,7 +19,7 @@ function NavBar() {
 
           {/* WELCOME */}
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/" className="nav-link">
               <FontAwesomeIcon className="icons" icon="home" size="2x" />
               <span className="link-text">Welcome</span>
             </a>
@@ -27,7 +27,7 @@ function NavBar() {
 
           {/* WHAT I DO */}
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/what-i-do" className="nav-link">
               <FontAwesomeIcon className="icons" icon="lightbulb" size="2x" />
               <span className="link-text">What I do</span>
             </a>
@@ -35,7 +35,7 @@ function NavBar() {
 
           {/* ABOUT */}
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/about" className="nav-link">
               <FontAwesomeIcon className="icons" icon="info-circle" size="2x" />
               <span className="link-text">About</span>
             </a>
@@ -43,7 +43,7 @@ function NavBar() {
 
           {/* CONTACT */}
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/contact" className="nav-link">
               <FontAwesomeIcon className="icons" icon="envelope" size="2x" />
               <span className="link-text">Contact</span>
             </a>
