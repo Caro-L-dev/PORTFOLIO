@@ -1,3 +1,5 @@
+@use 'src/styles/vars' as vars;
+
 .react-switch-checkbox {
   visibility: hidden;
 }
@@ -7,8 +9,8 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 100px;
-  height: 50px;
+  width: 50px;
+  height: 20px;
   background: grey;
   border-radius: 100px;
   position: relative;
@@ -18,13 +20,13 @@
 .react-switch-label .react-switch-button {
   content: '';
   position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 45px;
-  height: 45px;
+  top: 3px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
   border-radius: 45px;
   transition: 0.2s;
-  background: #fff;
+  background: vars.$bg-primary ;
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
 }
 
