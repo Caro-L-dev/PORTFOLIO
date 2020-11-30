@@ -53,7 +53,7 @@ function NavBar() {
           <div className="switch">
             <ToggleSwitch
               isOn={value}
-              onColor="#C9C9EE"
+              onColor="#6649b8"
               handleToggle={() => setValue(!value)}
             />
           </div>

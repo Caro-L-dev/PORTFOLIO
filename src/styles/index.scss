@@ -4,6 +4,7 @@
 body {
   font-family: sans-serif;
   font-size: 16px;
+  letter-spacing: .2em;
   background-color: vars.$bg-secondary;
 }
 
@@ -16,5 +17,5 @@ body ::-webkit-scrollbar-track {
 }
 
 body ::-webkit-scrollbar-thumb {
-  background-color: #6649b8;
+  background-color: vars.$scrollbar-color;
 }

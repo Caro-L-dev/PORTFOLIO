@@ -8,7 +8,7 @@ $color_grey_dark: #a2a2a2;
 
 
 .whatIDo {
-  background-color:#FFBC42;
+  background-color: vars.$bg-primary;;
   margin: 2rem;
   box-sizing: border-box;
   padding-bottom: 10px;
@@ -28,7 +28,7 @@ $color_grey_dark: #a2a2a2;
 
   }&__card {
       padding: 1rem;
-      background: vars.$bg-primary;
+      background: vars.$text-secondary;
       position: relative;
       z-index: 1;
 
@@ -51,7 +51,7 @@ $color_grey_dark: #a2a2a2;
       line-height: 1;
       margin: 0;
       font-size: 1.7rem;
-      color: #FFBC42;
+      color: vars.$bg-secondary;
       font-weight: bold;
 
   }&__card--underTitle {
@@ -59,7 +59,7 @@ $color_grey_dark: #a2a2a2;
       font-size: 1rem;
       font-weight: 300;
       text-transform: uppercase;
-      color: #FFBC42;
+      color: vars.$bg-primary;
       margin-top: 5px;
 
   }&__card--title {
@@ -87,7 +87,7 @@ $color_grey_dark: #a2a2a2;
 }
 
 .whatIDo__container--title{
-  color: vars.$bg-secondary;
+  color: vars.$text-secondary;
   font-weight: bold;
   text-transform: uppercase;
   padding: 1rem;
@@ -109,7 +109,12 @@ $color_grey_dark: #a2a2a2;
 
 }
 
+.WhatIDo__underTitle {
+  text-transform: none;
+}
+
 .whatIDo__card--text {
-  color: #FFBC42;
+  color: vars.$bg-primary;
+  font-size: larger;
 }
 
