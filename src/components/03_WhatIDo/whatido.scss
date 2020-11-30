@@ -8,35 +8,15 @@ $color_grey_dark: #a2a2a2;
 
 
 .whatIDo {
-  background: #f1f1f1;
+  background-color:#FFBC42;
   margin: 2rem;
   box-sizing: border-box;
   padding-bottom: 10px;
   padding-top: 50px;
-  margin-left: 100px;
+  margin-left: 5rem;
+  position: relative;
 
-
-  &__title {
-  font-weight: bold;
-  text-transform: uppercase;
-
-
-  }&__card {
-      display: flex;
-      flex-direction: column;
-      margin: 1rem auto;
-      box-shadow: 0 3px 7px -1px rgba(#000, .1);
-      margin-bottom: 1.6%;
-      background: $color_white;
-      line-height: 1.4;
-      font-family: sans-serif;
-      border-radius: 5px;
-      overflow: hidden;
-      z-index: 0;
-      width: 100em;
-      height: 25em;
-
-  }&__img {
+  &__img {
       position: absolute;
       top: 0;
       right: 0;
@@ -46,28 +26,44 @@ $color_grey_dark: #a2a2a2;
       background-position: center;
       transition: transform .2s;
 
-  }&__description {
+  }&__card {
       padding: 1rem;
-      background: $color_white;
+      background: vars.$bg-primary;
       position: relative;
       z-index: 1;
+
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto;
+      box-shadow: 0 3px 7px -1px rgba(#000, .1);
+      margin-bottom: 1.6%;
+
+      line-height: 1.4;
+      font-family: sans-serif;
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 0;
+      width: 100em;
+      height: 25em;
 
   }&__card--title {
       font-family: Poppins, sans-serif;
       line-height: 1;
       margin: 0;
       font-size: 1.7rem;
+      color: #FFBC42;
+      font-weight: bold;
 
   }&__card--underTitle {
       font-family: Poppins, sans-serif;
       font-size: 1rem;
       font-weight: 300;
       text-transform: uppercase;
-      color: $color_grey_dark;
+      color: #FFBC42;
       margin-top: 5px;
 
   }&__card--title {
-      position: relative;
+      position: flex;
       margin: 1rem 0 0;
     &:first-of-type {
       margin-top: 1.25rem;
@@ -83,10 +79,37 @@ $color_grey_dark: #a2a2a2;
 
     }&__see-more {
       text-align: right;
-      color: $color_prime;
+      color: #FFBC42;
       display: inline-block;
       position: relative;
     }
   }
+}
+
+.whatIDo__container--title{
+  color: vars.$bg-secondary;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem;
+
+  position: relative;
+
+
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+
+  line-height: 1.4;
+
+
+  overflow: hidden;
+  width: 100em;
+  height: 5em;
+
+
+}
+
+.whatIDo__card--text {
+  color: #FFBC42;
 }
 
