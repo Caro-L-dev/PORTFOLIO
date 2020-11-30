@@ -1,5 +1,92 @@
 @use 'src/styles/vars' as vars;
 
+$color_white: #fff;
+$color_prime: #5ad67d;
+$color_grey: #e2e2e2;
+$color_grey_dark: #a2a2a2;
+
+
+
 .whatIDo {
-  background-color: red;
+  background: #f1f1f1;
+  margin: 2rem;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  margin-left: 100px;
+
+
+  &__title {
+  font-weight: bold;
+  text-transform: uppercase;
+
+
+  }&__card {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem auto;
+      box-shadow: 0 3px 7px -1px rgba(#000, .1);
+      margin-bottom: 1.6%;
+      background: $color_white;
+      line-height: 1.4;
+      font-family: sans-serif;
+      border-radius: 5px;
+      overflow: hidden;
+      z-index: 0;
+      width: 100em;
+      height: 25em;
+
+  }&__img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform .2s;
+
+  }&__description {
+      padding: 1rem;
+      background: $color_white;
+      position: relative;
+      z-index: 1;
+
+  }&__card--title {
+      font-family: Poppins, sans-serif;
+      line-height: 1;
+      margin: 0;
+      font-size: 1.7rem;
+
+  }&__card--underTitle {
+      font-family: Poppins, sans-serif;
+      font-size: 1rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: $color_grey_dark;
+      margin-top: 5px;
+
+  }&__card--title {
+      position: relative;
+      margin: 1rem 0 0;
+    &:first-of-type {
+      margin-top: 1.25rem;
+    &:before {
+      content: "";
+      position: absolute;
+      height: 5px;
+      background: $color_prime;
+      width: 35px;
+      top: -0.75rem;
+      border-radius: 3px;
+  }    
+
+    }&__see-more {
+      text-align: right;
+      color: $color_prime;
+      display: inline-block;
+      position: relative;
+    }
+  }
 }
+
