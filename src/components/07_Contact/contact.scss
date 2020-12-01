@@ -1,5 +1,49 @@
 @use 'src/styles/vars' as vars;
 
 .contact {
-  background-color: yellow;
+  background: vars.$bg-primary;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.contact__container {
+  //background-color: yellow;
+  height: 80vh;
+  width: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.contact__container--title{
+  //background-color: blue;
+  width: 20em;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ececec;
+}
+
+.contact__container__description{
+ // background-color: red;
+  height: 65vh;
+  width: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.contact__container__description--img{
+  background-color: #fff;
+  height: 60vh;
+  width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__container__description--emailPhone{
+ // background-color: green;
+  text-align: center;
+  margin-top: 1.2em;
 }
