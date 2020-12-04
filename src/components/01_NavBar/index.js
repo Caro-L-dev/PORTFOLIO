@@ -49,7 +49,7 @@ function NavBar() {
             </a>
           </li>
 
-          {/* TOGGLE SWITCH*/}
+          {/* TOGGLE SWITCH */}
           <div className="switch">
             <ToggleSwitch
               isOn={value}

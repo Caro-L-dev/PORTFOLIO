@@ -1,6 +1,6 @@
 // == Npm import
 import React from 'react';
-// import PropTypes from 'prop-types';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // == Import
 import './contact.scss';
@@ -20,12 +20,18 @@ function Contact() {
               src=""
               alt="contact image"
             />
-            <div className="contact__container__description--emailPhone">
+            <div className="contact__container__description--emailPhoneLogos">
               <p className="contact__container__description--email">
-                liardcar@gmail.com
+                <a>
+                  <FontAwesomeIcon className="contact-icon" icon="envelope" size="1x" />
+                  liardcar@gmail.com
+                </a>
               </p>
               <p className="contact__container__description--phone">
-                +33 620167545
+                <a>
+                  <FontAwesomeIcon className="contact-icon" icon="phone-square-alt" size="1x" />
+                  +33 620167545
+                </a>
               </p>
               <div className="contact__container__description--logos">
                 Logos ici

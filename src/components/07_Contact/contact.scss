@@ -23,6 +23,7 @@
   font-size: 2rem;
   font-weight: 900;
   color: #ececec;
+  text-transform: uppercase;
 }
 
 .contact__container__description{
@@ -42,8 +43,18 @@
   margin-right: auto;
 }
 
-.contact__container__description--emailPhone{
+.contact__container__description--emailPhoneLogos{
  // background-color: green;
   text-align: center;
   margin-top: 1.2em;
+  font-size: 1.5em;
+  line-height: 35px;
+}
+
+.contact__container__description--logos{
+  margin-top: 20px;
+}
+
+.contact-icon{
+  margin-right: 10px;
 }
