@@ -34,7 +34,18 @@ function Contact() {
                 </a>
               </p>
               <div className="contact__container__description--logos">
-                Logos ici
+                <a target="_blank"  href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" />
+                </a>
+                <a target="_blank"  href="https://github.com/Caro-L-dev" className="contact-link">
+                  <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
+                </a>
+                <a target="_blank" href="https://www.artstation.com/caroline_liard" className="contact-link">
+                  <FontAwesomeIcon icon={['fab', 'artstation']} size="2x" />
+                </a>
+                <a target="_blank" href="https://www.instagram.com/caro.line_ld/" className="contact-link">
+                  <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
+                </a>
               </div>
             </div>
           </div>
