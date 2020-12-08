@@ -62,3 +62,39 @@
 .contact-link {
   margin: 10px;
 }
+
+.img2{
+  visibility: hidden;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .contact {
+
+   background-color: salmon;
+
+   display: inline;
+   justify-content: center;
+   text-align: center;
+  }
+
+  .contact__container {
+    background-color: palegoldenrod;
+    position: relative;
+    height: 500px;
+    width: 300px;
+  }
+
+  .contact__container--title{
+    margin: 10px;
+  }
+
+  .img2{
+    height: 500px;
+    width: 800px;
+
+  }
+ 
+
+
+}

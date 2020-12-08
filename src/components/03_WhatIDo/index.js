@@ -1,5 +1,6 @@
 // == Npm import
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // == Import
 import './whatido.scss';
@@ -22,9 +23,21 @@ function WhatIDo() {
           <p className="whatIDo__card--text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Ad eum dolorum architecto obcaecati enim dicta praesentium,
             quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            Ad eum dolorum architecto obcaecati enim dicta praesentium,
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
           </p>
-          <p className="whatIDo__see-more">
-            <a href="#">See More</a>
+          <p className="whatIDo__see-more-web">
+            <Link to="">
+              <button type="button" className="whatIDo__see-more">
+                See More
+              </button>
+            </Link>
           </p>
         </div>
         <div className="whatIDo__card">
@@ -34,9 +47,19 @@ function WhatIDo() {
           <p className="whatIDo__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Ad eum dolorum architecto obcaecati enim dicta praesentium,
             quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
+            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
           </p>
-          <p className="whatIDo__see-more">
-            <a href="#">See More</a>
+          <p className="whatIDo__see-more-art">
+            <Link to="">
+              <button type="button" className="whatIDo__see-more">
+                See More
+              </button>
+            </Link>
           </p>
         </div>
       </div>
