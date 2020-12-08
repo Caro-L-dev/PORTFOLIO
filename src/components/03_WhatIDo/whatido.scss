@@ -1,16 +1,49 @@
 @use 'src/styles/vars' as vars;
 
-.card{
+.whatIDo{
+  background-color: vars.$bg-primary;
+  padding-top: 45px;
+  height: 100vh;
+}
+
+.wid__title{
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.wid__undertitle{
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+ // font-size: calc(5% + 1vw);
+  padding-bottom: 30px;
+}
+
+.wid__card{
   box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),
   0 2px 2px rgba(0, 0, 0, 0.10);
 	background: #fff;
     border-radius: 5px;
     display:flex;
     flex-direction: column;
+
+    box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
+    border-left: outset orange 20px;
+    border-right: double orange 10px;
+
+    }
+
     .card-body{
         display:flex;
         flex-flow: row wrap;
         padding: 30px;
+        
     }
     header{
         flex: 100%;
@@ -18,10 +51,16 @@
     .meta{
         margin-bottom: 22px;
     }
+
+    .text{
+  
+    }
     .button{
+      transition: 0.2s;
         align-self: flex-end;
     }
-    .img{
+    .wid__img{
+        background-color: grey;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -29,17 +68,23 @@
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         overflow:hidden;
-        width: 100%;
+        width: 200%;
         height: 300px; // only for mobile, vertical cards: flex-direction: column;
+        
+        transform: scale(.9);
+        border-radius: 50px;
+        transition: 0.25s;
     }
 
+
+.wid__img:hover{
+  box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1) contrast(0.95) saturate(1);
+  border-radius: 0px;
+  //border-right: #009DFF inset 30px;
+  border-bottom: black solid 20px;
 }
 
-
-.dev--icon{
-  background-color: blue;
-  margin: 80px;
-}
 
 
 
@@ -48,17 +93,17 @@
 
 // Horizontal kicks in
 @media only screen and (min-width: 768px) {
-	.card{
+	.wid__card{
         flex-direction: row;
         max-height: 279px; // desktop horizontal cards with featured image
         h3{
             font-size: calc(100% + 1vw);
         }
-        .featured-image{
+        .wid__img{
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
             border-top-right-radius: 0;
-            max-width: 390px;
+            max-width: 600px;
             max-height: 279px; // desktop horizontal cards with featured image
         }
 	}
@@ -66,7 +111,7 @@
 
 // monitor screen sizes
 @media only screen and (min-width: 1280px) {
-	.card{
+	.wid__card{
         h3{
             font-size: 32px;
         }
@@ -127,9 +172,7 @@ a{
     -ms-overflow-style: -ms-autohiding-scrollbar;
     -ms-overflow-style: none;
 
-    &:hover{
-      transform: translateY(-2px);
-    }
+    
 }
 // single button
 .whatIDo__button{
@@ -139,8 +182,8 @@ a{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.4;
     white-space: nowrap;
-    color: white;
-    background: #009DFF;
+    color: orange;
+  background: #fff;
     border-radius: 25px;
     margin-right: 8px;
     padding: 5px 12px;
@@ -150,11 +193,17 @@ a{
     &.large{
         text-transform: uppercase;
         color: black;
-        border: 1px solid #E0E0E0;
-        background: white;
+      //  border: 1px solid #E0E0E0;
+      //  background: white;
         padding: 10px 15px;
         max-height: 44px;
     }
+
+    &:hover{
+      border-bottom: orange 1px solid;
+      border-radius: 0px;
+    }
+
     input{
         margin-bottom:0!important;
         height: 22px!important;
@@ -185,4 +234,12 @@ a.whatIDo__button.large{
 }
 
 
+
+li {
+  margin: 30px;
+}
+
+.wid__card--container{
+  padding-top: 10px;
+}
 
