@@ -16,8 +16,8 @@
       background-size: cover;
       background-position: center;
       transition: transform .2s;
-
-  }&__card {
+  
+    }&__card {
       padding: 1rem;
       background: vars.$text-secondary;
       position: relative;
@@ -66,31 +66,7 @@
       border-radius: 3px;  
 } 
 
-.whatIDo__container--title{
-  color: vars.$text-secondary;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 1rem;
 
-  position: relative;
-
-
-  display: flex;
-  flex-direction: column;
-  margin: 1rem auto;
-
-  line-height: 1.4;
-
-
-  overflow: hidden;
-  width: 100em;
-  height: 5em;
-}
-
-.WhatIDo__underTitle {
-  text-transform: none;
-  //font-size: 16px;
-}
 
 .whatIDo__card--text {
   color: vars.$bg-primary;
@@ -143,5 +119,26 @@
 
 .whatIDo__card--text {
   font-size: 25px;
+}
+
+.whatIDo__container--title{
+  color: vars.$text-secondary;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem;
+
+  position: relative;
+
+
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+
+  line-height: 1.4;
+
+
+  overflow: hidden;
+  width: 100em;
+  height: 5em;
 }
 

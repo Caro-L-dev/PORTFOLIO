@@ -8,6 +8,7 @@ import {
   faAngleDoubleRight,
   faPlus,
   faPhoneSquareAlt,
+  faPalette,
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
@@ -17,6 +18,7 @@ import {
   faGithub,
   faArtstation,
   faInstagram,
+  faDev,
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fas, far, fab);
@@ -33,4 +35,6 @@ library.add(
   faGithub,
   faArtstation,
   faInstagram,
+  faDev,
+  faPalette,
 );

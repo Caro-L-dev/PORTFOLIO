@@ -1,6 +1,7 @@
 // == Npm import
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // == Import
 import './whatido.scss';
@@ -17,7 +18,11 @@ function WhatIDo() {
           </p>
         </div>
         <div className="whatIDo__card">
-          <div className="whatIDo__img"> Img</div>
+          <div className="whatIDo__img">
+            <a className="whatIDo__img">
+              <FontAwesomeIcon icon={['fab', 'dev']} size="6x" />
+            </a>
+          </div>
           <h1 className="whatIDo__card--title">Web Development</h1>
           <h2 className="whatIDo__card--underTitle">Opening a door to the future</h2>
           <p className="whatIDo__card--text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -41,7 +46,11 @@ function WhatIDo() {
           </p>
         </div>
         <div className="whatIDo__card">
-          <div className="whatIDo__img"> Img</div>
+          <div className="whatIDo__img">
+            <a className="whatIDo__img">
+              <FontAwesomeIcon icon={['fa', 'palette']} size="6x" />
+            </a>
+          </div>
           <h1 className="whatIDo__card--title">Animation // Art</h1>
           <h2 className="whatIDo__card--underTitle">It's me amigo</h2>
           <p className="whatIDo__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
