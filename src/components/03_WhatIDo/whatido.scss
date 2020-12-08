@@ -1,144 +1,188 @@
 @use 'src/styles/vars' as vars;
 
-.whatIDo {
-  background-color: vars.$bg-primary;;
-  margin: 2rem;
-  box-sizing: border-box;
-  padding-bottom: 10px;
-  padding-top: 50px;
-  margin-left: 5rem;
-  position: relative;
-
-  &__img {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      background-size: cover;
-      background-position: center;
-      transition: transform .2s;
-  
-    }&__card {
-      padding: 1rem;
-      background: vars.$text-secondary;
-      position: relative;
-      z-index: 1;
-
-      display: flex;
-      flex-direction: column;
-      margin: 1rem auto;
-      box-shadow: 0 3px 7px -1px rgba(#000, .1);
-      margin-bottom: 1.6%;
-
-      line-height: 1.4;
-      border-radius: 5px;
-      overflow: hidden;
-      z-index: 0;
-      width: 100em;
-      height: 25em;
-
-  }&__card--title {
-      font-family: Poppins, sans-serif;
-      line-height: 1;
-      margin: 0;
-      font-size: 1.7rem;
-      color: vars.$bg-secondary;
-      font-weight: bold;
-
-  }&__card--underTitle {
-      font-family: Poppins, sans-serif;
-      font-size: 1rem;
-      font-weight: 300;
-      text-transform: uppercase;
-      color: vars.$bg-primary;
-      margin-top: 5px;
-
-  }&__card--title {
-      position: flex;
-      margin: 1rem 0 0;
-    &:first-of-type {
-      margin-top: 1.25rem;
-    &:before {
-      content: "";
-      position: absolute;
-      height: 5px;
-      width: 35px;
-      top: -0.75rem;
-      border-radius: 3px;  
-} 
-
-
-
-.whatIDo__card--text {
-  color: vars.$bg-primary;
-  font-size: larger;
-}
-
-}}
-
-
-.whatIDo__see-more{
-  margin-top: 10px;
-  display: inline-block;
-
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  color: #00c7ec;
-  border: 1px solid #00c7ec;
-  border-radius: 5px;
-
-  line-height: 3em;
-  padding-left: 2em;
-  padding-right: 2em;
-
-  transition:(all 0.2s ease-in);
-
-  &:hover {
-    color: white;
-    box-shadow: 0 0 30px 0;
-    background-color: #00c7ec;
-    transition:(all 0.2s ease-out);
-  }
-  &:before {
-    animation:(shine 0.5s 0s linear);
+.card{
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),
+  0 2px 2px rgba(0, 0, 0, 0.10);
+	background: #fff;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    .card-body{
+        display:flex;
+        flex-flow: row wrap;
+        padding: 30px;
     }
-  }
-  &:active {
-    box-shadow: 0 0 0 0 transparent;
-    transition:(box-shadow 0.2s ease-in);
-  }
-  }
+    header{
+        flex: 100%;
+    }
+    .meta{
+        margin-bottom: 22px;
+    }
+    .button{
+        align-self: flex-end;
+    }
+    .img{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        overflow:hidden;
+        width: 100%;
+        height: 300px; // only for mobile, vertical cards: flex-direction: column;
+    }
 
-
-.whatIDo__card--text {
-  font-size: 25px;
 }
 
-.whatIDo__container--title{
-  color: vars.$text-secondary;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 1rem;
 
-  position: relative;
-
-
-  display: flex;
-  flex-direction: column;
-  margin: 1rem auto;
-
-  line-height: 1.4;
-
-
-  overflow: hidden;
-  width: 100em;
-  height: 5em;
+.dev--icon{
+  background-color: blue;
+  margin: 80px;
 }
+
+
+
+
+
+
+// Horizontal kicks in
+@media only screen and (min-width: 768px) {
+	.card{
+        flex-direction: row;
+        max-height: 279px; // desktop horizontal cards with featured image
+        h3{
+            font-size: calc(100% + 1vw);
+        }
+        .featured-image{
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 0;
+            max-width: 390px;
+            max-height: 279px; // desktop horizontal cards with featured image
+        }
+	}
+}
+
+// monitor screen sizes
+@media only screen and (min-width: 1280px) {
+	.card{
+        h3{
+            font-size: 32px;
+        }
+    }
+}
+
+
+
+// Typography
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #222;
+    margin: .5em 0;
+}
+.pre-heading {
+    color: #444;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.meta {
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.text {
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+
+
+// NON-CARD STYLES
+ul{
+    display:block;
+    margin: 0 auto;
+    max-width: 1160px;
+    padding:30px;
+}
+a{
+    text-decoration: none;
+}
+
+// Recruitler.com's _chips.scss
+// container for button
+.button{
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    // hide scrollbars chrome / IE10+ & Edge
+    &::-webkit-scrollbar { display: none; }
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: none;
+
+    &:hover{
+      transform: translateY(-2px);
+    }
+}
+// single button
+.whatIDo__button{
+    display:inline-block;
+    position:relative;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    white-space: nowrap;
+    color: white;
+    background: #009DFF;
+    border-radius: 25px;
+    margin-right: 8px;
+    padding: 5px 12px;
+    max-height: 32px;
+    border: none;
+
+    &.large{
+        text-transform: uppercase;
+        color: black;
+        border: 1px solid #E0E0E0;
+        background: white;
+        padding: 10px 15px;
+        max-height: 44px;
+    }
+    input{
+        margin-bottom:0!important;
+        height: 22px!important;
+        background-color: transparent!important;
+        padding:3px 0 0 0!important;
+        &::placeholder{
+            color: black;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    }
+}
+a.whatIDo__button{
+    cursor: pointer;
+    &:hover,
+    &:visited,
+    &:active{
+        color: white;
+    }
+}
+a.whatIDo__button.large{
+    &:visited,
+    &:hover,
+    &:active{
+        color: black;
+    }
+}
+
+
 

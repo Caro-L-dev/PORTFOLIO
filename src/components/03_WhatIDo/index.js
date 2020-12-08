@@ -11,66 +11,40 @@ function WhatIDo() {
   return (
     <>
       <div className="whatIDo">
-        <div className="whatIDo__container--title">
-          <p className="WhatIDo__title">What I Do</p>
-          <p className="WhatIDo__underTitle">
-            Let me show you what kind of things I can do.
-          </p>
-        </div>
-        <div className="whatIDo__card">
-          <div className="whatIDo__img">
-            <a className="whatIDo__img">
-              <FontAwesomeIcon icon={['fab', 'dev']} size="6x" />
+        <ul>
+
+          <li className="card">
+            <a className="img">
+              <FontAwesomeIcon className="dev--icon" icon={['fab', 'dev']} size="10x" />
             </a>
-          </div>
-          <h1 className="whatIDo__card--title">Web Development</h1>
-          <h2 className="whatIDo__card--underTitle">Opening a door to the future</h2>
-          <p className="whatIDo__card--text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ad eum dolorum architecto obcaecati enim dicta praesentium,
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            Ad eum dolorum architecto obcaecati enim dicta praesentium,
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-          </p>
-          <p className="whatIDo__see-more-web">
-            <Link to="">
-              <button type="button" className="whatIDo__see-more">
-                See More
-              </button>
-            </Link>
-          </p>
-        </div>
-        <div className="whatIDo__card">
-          <div className="whatIDo__img">
-            <a className="whatIDo__img">
-              <FontAwesomeIcon icon={['fa', 'palette']} size="6x" />
-            </a>
-          </div>
-          <h1 className="whatIDo__card--title">Animation // Art</h1>
-          <h2 className="whatIDo__card--underTitle">It's me amigo</h2>
-          <p className="whatIDo__card--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Ad eum dolorum architecto obcaecati enim dicta praesentium,
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-            quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.
-          </p>
-          <p className="whatIDo__see-more-art">
-            <Link to="">
-              <button type="button" className="whatIDo__see-more">
-                See More
-              </button>
-            </Link>
-          </p>
-        </div>
+            <article className="card-body">
+              <header>
+                <span className="pre-heading">Web Development</span>
+                <div className="title">
+                  <h3>Opening a door to the future.</h3>
+                </div>
+                <p className="meta">
+                  <span className="text">
+                    Quanta autem vis amicitiae sit,
+                    ex hoc intellegi maxime potest,
+                    quod ex infinita societate generis humani,
+                    Quanta autem vis amicitiae sit,
+                    ex hoc intellegi maxime potest,
+                    quod ex infinita societate generis humani.
+                  </span>
+                </p>
+              </header>
+              <div className="button">
+                <Link to="">
+                  <button type="button" className="whatIDo__button Web">
+                    See More
+                  </button>
+                </Link>
+              </div>
+            </article>
+          </li>
+
+        </ul>
       </div>
     </>
   );
