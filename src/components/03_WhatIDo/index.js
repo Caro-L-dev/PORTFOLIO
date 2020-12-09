@@ -46,7 +46,7 @@ function WhatIDo() {
                     </span>
 
                     <div className="wid__card__button">
-                      <Link to="">
+                      <Link to="/portfolio-web">
                         <button type="button" className="wid__button--single">
                           See More
                         </button>
@@ -80,7 +80,7 @@ function WhatIDo() {
                     </span>
 
                     <div className="wid__card__button">
-                      <Link to="">
+                      <Link to="/portfolio-art">
                         <button type="button" className="wid__button--single">
                           See More
                         </button>
