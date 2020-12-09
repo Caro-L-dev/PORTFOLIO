@@ -1,8 +1,8 @@
 // == Npm import
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img1 from '../03_WhatIDo/img1.jpg';
-import img2 from '../03_WhatIDo/speed-mating.jpg';
+import img1 from './img1.jpg';
+import img2 from './speed-mating.jpg';
 
 // == Import
 import './whatido.scss';
@@ -13,8 +13,8 @@ function WhatIDo() {
     <>
       <div className="whatIDo">
 
-        <ul>
-          <li>
+        <ul className="wid__container">
+          <li className="wid__li">
             <h1 className="wid__title">
               What I Do
             </h1>
@@ -24,17 +24,19 @@ function WhatIDo() {
           </li>
 
           <div className="wid__card--container">
-            <li className="wid__card">
+            <li className="wid__card wid__li ">
               <img className="wid__img" src={img1} alt="dev img" />
 
-              <article className="card-body">
-                <header>
-                  <span className="pre-heading">Web Development</span>
-                  <div className="title">
-                    <h3>Opening a door to the future.</h3>
-                  </div>
-                  <p className="meta">
-                    <span className="text">
+              <article className="wid__card-body">
+                <header className="wid__card-body-header">
+                  <span className="wid__card__title">
+                    Web Development
+                  </span>
+                  <h3 className="wid__card__undertitle">
+                    Opening a door to the future.
+                  </h3>
+                  <p className="wid__card__meta">
+                    <span className="wid__card__text">
                       Quanta autem vis amicitiae sit,
                       ex hoc intellegi maxime potest,
                       quod ex infinita societate generis humani,
@@ -43,29 +45,32 @@ function WhatIDo() {
                       quod ex infinita societate generis humani.
                     </span>
 
-                    <div className="button">
+                    <div className="wid__card__button">
                       <Link to="">
-                        <button type="button" className="whatIDo__button Web">
+                        <button type="button" className="wid__button--single">
                           See More
                         </button>
                       </Link>
                     </div>
-                  </p>
 
+                  </p>
                 </header>
               </article>
             </li>
 
-            <li className="wid__card">
+            <li className="wid__card wid__li">
               <img className="wid__img" src={img2} alt="art img" />
-              <article className="card-body">
-                <header>
-                  <span className="pre-heading">Art // Animation</span>
-                  <div className="title">
-                    <h3>Creative World.</h3>
-                  </div>
-                  <p className="meta">
-                    <span className="text">
+              <article className="wid__card-body">
+                <header className="wid__card-body-header">
+                  <span className="wid__card__title">
+                    Art // Animation
+                  </span>
+                  <h3 className="wid__card__undertitle">
+                    Creative World.
+                  </h3>
+
+                  <p className="wid__card__meta">
+                    <span className="wid__card__text">
                       Quanta autem vis amicitiae sit,
                       ex hoc intellegi maxime potest,
                       quod ex infinita societate generis humani,
@@ -74,17 +79,16 @@ function WhatIDo() {
                       quod ex infinita societate generis humani.
                     </span>
 
-                    <div className="button">
+                    <div className="wid__card__button">
                       <Link to="">
-                        <button type="button" className="whatIDo__button Web">
+                        <button type="button" className="wid__button--single">
                           See More
                         </button>
                       </Link>
                     </div>
+
                   </p>
-
                 </header>
-
               </article>
             </li>
           </div>
