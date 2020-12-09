@@ -1,5 +1,45 @@
 @use 'src/styles/vars' as vars;
 
 .about {
+  background-color: vars.$bg-primary;
+  padding-top: 45px;
+  height: 100vh;
+}
+
+.about__title{
+  background-color: blue;
+}
+
+.about__undertitle{
+  background-color: rgb(43, 43, 155);
+}
+
+.about__container{
   background-color: green;
+}
+
+.about__container--experiences{
+  background-color: rgb(82, 131, 82);
+}
+
+.about__container--experiences-title{
+  background-color: pink;
+}
+
+.about__container--experiences-text{
+  background-color: rgb(148, 104, 111);
+}
+
+
+
+.about__container--hobbies{
+  background-color: yellow;
+}
+
+.about__container--hobbies-title{
+  background-color: rgb(211, 211, 103);
+}
+
+.about__container--hobbies-allLogos{
+  background-color: #fff;
 }
