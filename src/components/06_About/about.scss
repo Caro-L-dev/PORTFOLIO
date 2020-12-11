@@ -3,43 +3,145 @@
 .about {
   background-color: vars.$bg-primary;
   padding-top: 45px;
+  padding-bottom: 45px;
   height: 100vh;
 }
 
+.about__container-all{
+  background-color: rgb(51, 51, 56);
+
+  margin: 0 auto;
+
+  max-width: 1980px;
+  height: 1000px;
+
+  padding: 10px;
+}
+
 .about__title{
-  background-color: blue;
+  //background-color: blue;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .about__undertitle{
-  background-color: rgb(43, 43, 155);
+  //background-color: rgb(43, 43, 155);
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+ // font-size: calc(5% + 1vw);
+  padding-bottom: 60px;
 }
 
 .about__container{
-  background-color: green;
+  background-color: rgb(46, 71, 46);
+
+  display: flex;
+  flex-direction: column;
+
+  height: 850px;
 }
 
 .about__container--experiences{
   background-color: rgb(82, 131, 82);
+  border: 1px solid red;
+
+  width: 100vh;
+
+  //align-self: start;
 }
 
 .about__container--experiences-title{
-  background-color: pink;
+  //background-color: pink;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about__container--experiences-text{
-  background-color: rgb(148, 104, 111);
+  //background-color: rgb(148, 104, 111);
+  text-transform: uppercase;
+  line-height: 20px;
+  padding-bottom: 20px;
 }
-
 
 
 .about__container--hobbies{
   background-color: yellow;
+  border: 1px solid red;
+  width: 100vh;
+
+  //align-self: end;
 }
 
 .about__container--hobbies-title{
   background-color: rgb(211, 211, 103);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about__container--hobbies-allLogos{
   background-color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.about__container--avatar{
+  background-color: rgb(194, 162, 209);
+  border: 1px solid red;
+
+  width: 60vh;
+  height: 300vh;
+
+  margin: 30px;
+
+ // align-self: flex-end;
+}
+
+
+.about__container--CV{
+  transition: 0.2s;
+  margin-top: 280px;
+  text-align: center;
+}
+
+.about__container--CV-button{
+  display:inline-block;
+  position:relative;
+  
+  white-space: nowrap;
+  color: orange;
+  background: #fff;
+  border-radius: 15px;
+  margin-right: 8px;
+  padding: 5px 12px;
+  height: 42px;
+  width: 300px;
+  border: none;
 }
