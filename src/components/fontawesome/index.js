@@ -9,6 +9,15 @@ import {
   faPlus,
   faPhoneSquareAlt,
   faPalette,
+  faDice,
+  faDragon,
+  faGlobeEurope,
+  faDumbbell,
+  faBook,
+  faVideo,
+  faChess,
+  faCookie,
+  faPaintBrush
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
@@ -37,4 +46,13 @@ library.add(
   faInstagram,
   faDev,
   faPalette,
+  faDice,
+  faDragon,
+  faGlobeEurope,
+  faDumbbell,
+  faBook,
+  faVideo,
+  faChess,
+  faCookie,
+  faPaintBrush,
 );

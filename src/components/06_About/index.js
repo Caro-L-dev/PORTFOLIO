@@ -1,6 +1,7 @@
 // == Npm import
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // == Import
 import './about.scss';
@@ -53,7 +54,43 @@ function About() {
                 Hobbies
               </h1>
               <div className="about__container--hobbies-allLogos">
-                Logos fontAwesome here
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fas', 'dice']} size="4x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fas', 'dragon']} size="4x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fas', 'globe-europe']} size="3x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fas', 'dumbbell']} size="3x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fa', 'book']} size="3x" />
+                </a>
+
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fa', 'video']} size="3x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fa', 'cookie']} size="3x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fa', 'paint-brush']} size="3x" />
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/liardcaroline/" className="contact-link">
+                  <FontAwesomeIcon icon={['fa', 'palette']} size="3x" />
+                </a>
+
               </div>
             </section>
 

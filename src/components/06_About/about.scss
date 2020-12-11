@@ -2,9 +2,10 @@
 
 .about {
   background-color: vars.$bg-primary;
-  padding-top: 45px;
+  padding-top: 100px;
   padding-bottom: 45px;
   height: 100vh;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 .about__container-all{
@@ -54,7 +55,7 @@
 
   width: 100vh;
 
-  //align-self: start;
+  margin-bottom: 30px;
 }
 
 .about__container--experiences-title{
@@ -82,7 +83,7 @@
 
 
 .about__container--hobbies{
-  background-color: yellow;
+  background-color: rgb(211, 211, 103);
   border: 1px solid red;
   width: 100vh;
 
@@ -90,7 +91,7 @@
 }
 
 .about__container--hobbies-title{
-  background-color: rgb(211, 211, 103);
+ // background-color: rgb(211, 211, 103);
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -106,10 +107,11 @@
 }
 
 .about__container--hobbies-allLogos{
-  background-color: #fff;
-  text-transform: uppercase;
-  line-height: 20px;
-  padding-bottom: 20px;
+  //background-color: #fff;
+  
+  padding-bottom: 30px;
+  
+  text-align: center;
 }
 
 .about__container--avatar{
