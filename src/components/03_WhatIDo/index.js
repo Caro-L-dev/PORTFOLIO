@@ -48,7 +48,7 @@ function WhatIDo() {
                     <div className="wid__card__button">
                       <Link to="/portfolio-web">
                         <button type="button" className="wid__button--single">
-                          See More
+                          See my web development portfolio
                         </button>
                       </Link>
                     </div>
@@ -82,7 +82,7 @@ function WhatIDo() {
                     <div className="wid__card__button">
                       <Link to="/portfolio-art">
                         <button type="button" className="wid__button--single">
-                          See More
+                          Here again, but in art field!
                         </button>
                       </Link>
                     </div>
