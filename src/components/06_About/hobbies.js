@@ -10,44 +10,53 @@ import './about.scss';
 function Hobbies() {
   return (
     <>
-      <div className="about__container--hobbies-allLogos">
-        <a>
-          <FontAwesomeIcon icon={['fas', 'dice']} size="4x" />
-        </a>
+      <section className="about__container--hobbies">
+        <h1 className="about__container--hobbies-title">
+          Hobbies
+        </h1>
+        <div className="about__container--hobbies-allLogos">
+          <a>
+            <FontAwesomeIcon icon={['fas', 'dice']} size="2x" />
+          </a>
+          <span className="hobbies--span" />
+          <span className="hobbies--span" />
+          <span className="hobbies--span" />
+          <span className="hobbies--span" />
 
-        <a>
-          <FontAwesomeIcon icon={['fas', 'dragon']} size="4x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fas', 'dragon']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fas', 'globe-europe']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fas', 'globe-europe']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fas', 'dumbbell']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fas', 'dumbbell']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fa', 'book']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fa', 'book']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fa', 'video']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fa', 'video']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fa', 'cookie']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fa', 'cookie']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fa', 'paint-brush']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fa', 'paint-brush']} size="2x" />
+          </a>
 
-        <a>
-          <FontAwesomeIcon icon={['fa', 'palette']} size="3x" />
-        </a>
+          <a>
+            <FontAwesomeIcon icon={['fa', 'palette']} size="2x" />
+          </a>
 
-      </div>
+        </div>
+      </section>
     </>
   );
 }

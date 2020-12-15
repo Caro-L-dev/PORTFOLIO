@@ -86,8 +86,6 @@
   background-color: rgb(211, 211, 103);
   border: 1px solid red;
   width: 100vh;
-
-  //align-self: end;
 }
 
 .about__container--hobbies-title{
@@ -99,38 +97,34 @@
   font-weight: bold;
   font-size: 30px;
 
-  display: flex;
-  flex-direction: column;
-
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .about__container--hobbies-allLogos{
-  //background-color: #fff;
-  
-  padding-bottom: 30px;
-  
-  text-align: center;
+  text-align:center;
+
+  color:#404040;
+  height: 100px;
+
+}
+
+.hobbies--span{
+  position:absolute;
+  transition: transform .5s;
 }
 
 .about__container--avatar{
   background-color: rgb(194, 162, 209);
   border: 1px solid red;
 
-  width: 60vh;
-  height: 300vh;
-
-  margin: 30px;
-
- //align-self: flex-end;
-  align-self: flex-start;
+  width: 600px;
+  height: 600px;
 }
 
 
 .about__container--CV{
   transition: 0.2s;
-  margin-top: 280px;
   text-align: center;
 }
 
