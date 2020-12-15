@@ -1,6 +1,5 @@
 // == Npm import
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Hobbies from '../06_About/hobbies';
 import Experiences from '../06_About/experiences';
 import Avatar from '../06_About/avatar';

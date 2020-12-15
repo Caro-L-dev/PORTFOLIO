@@ -11,11 +11,11 @@ function Avatar() {
     <>
       <div className="about__container--avatar">here</div>
       <div className="about__container--CV">
-        <Link to="/">
+        <a href="CV_DEV_Caroline_Liard_01.jpg" download>
           <button type="button" className="about__container--CV-button">
             Download CV
           </button>
-        </Link>
+        </a>
       </div>
     </>
   );
