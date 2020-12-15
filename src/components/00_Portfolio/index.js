@@ -13,7 +13,7 @@ import PortfolioWeb from '../04_PortfolioWeb';
 import PortfolioArt from '../05_PortfolioArt';
 import About from '../06_About';
 import Contact from '../07_Contact';
-import SocialLinks from '../07_Contact/socialLinks';
+
 // import NotFound from '../NotFound';
 
 // == Composant
@@ -28,7 +28,6 @@ function Portfolio() {
         <Route path="/portfolio-art" component={PortfolioArt} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/social-links" component={SocialLinks} />
       </BrowserRouter>
 
     </div>

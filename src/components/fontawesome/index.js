@@ -17,7 +17,8 @@ import {
   faVideo,
   faChess,
   faCookie,
-  faPaintBrush
+  faPaintBrush,
+  faChevronRight,
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
@@ -55,4 +56,5 @@ library.add(
   faChess,
   faCookie,
   faPaintBrush,
+  faChevronRight,
 );
