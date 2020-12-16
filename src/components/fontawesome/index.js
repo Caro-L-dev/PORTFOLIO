@@ -19,6 +19,8 @@ import {
   faCookie,
   faPaintBrush,
   faChevronRight,
+  faChevronLeft,
+  faEllipsisH,
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
@@ -29,6 +31,13 @@ import {
   faArtstation,
   faInstagram,
   faDev,
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faNode,
+  faReact,
+  faBootstrap,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons';
 
 library.add(fas, far, fab);
@@ -57,4 +66,13 @@ library.add(
   faCookie,
   faPaintBrush,
   faChevronRight,
+  faHtml5,
+  faChevronLeft,
+  faCss3Alt,
+  faJsSquare,
+  faNode,
+  faReact,
+  faBootstrap,
+  faEllipsisH,
+  faSass,
 );

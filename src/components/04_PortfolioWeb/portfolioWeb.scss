@@ -1,1 +1,92 @@
 @use 'src/styles/vars' as vars;
+
+.portfolioWeb{
+  background-color: vars.$bg-primary;
+  padding-top: 45px;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 45px;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.pw__container{
+  //background-color: rgb(94, 78, 78);
+  margin: 0 auto;
+
+  max-width: 1980px;
+  height: 1000px;
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pw__container__title{
+    //background-color: blue;
+    color: #fff;
+    text-transform: uppercase;
+  
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.pw__container__description{
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pw__technologies{
+  background-color: rgb(46, 44, 44);
+  border: 1px solid black;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  flex: 2;
+}
+
+.pw__title{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.pw__technologies--description{
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-left: 60px;
+}
+
+.pw__technologies--logos{
+  background-color: rgb(102, 102, 67);
+  margin-top: 20px;
+}
+
+.pw__projects{
+  background-color: rgb(46, 44, 44);
+  border: 1px solid black;
+  padding: 30px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pw__img{
+  background-color: rgb(124, 123, 123);
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  margin-top: 50px ;
+}
