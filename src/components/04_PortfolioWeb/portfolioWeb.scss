@@ -43,8 +43,8 @@
 }
 
 .pw__technologies{
-  background-color: rgb(46, 44, 44);
-  border: 1px solid black;
+ // background-color: rgb(46, 44, 44);
+  border: 1px solid #fff;
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -68,8 +68,23 @@
 }
 
 .pw__technologies--logos{
-  background-color: rgb(102, 102, 67);
+  //background-color: rgb(102, 102, 67);
+  color: #fff;
   margin-top: 20px;
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 50px;
+}
+
+
+.pw__logo{
+  text-align: center;
+
 }
 
 .pw__projects{

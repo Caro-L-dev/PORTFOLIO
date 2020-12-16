@@ -29,14 +29,40 @@ function PortfolioWeb() {
             <div className="pw__technologies--logos">
               <FontAwesomeIcon icon={['fas', 'chevron-left']} size="3x" />
 
-              <FontAwesomeIcon icon={['fab', 'html5']} size="3x" /> HTML5
-              <FontAwesomeIcon icon={['fab', 'css3-alt']} size="3x" /> CSS3
-              <FontAwesomeIcon icon={['fab', 'sass']} size="3x" /> Sass
-              <FontAwesomeIcon icon={['fab', 'bootstrap']} size="3x" /> Bootstrap
-              <FontAwesomeIcon icon={['fab', 'js-square']} size="3x" /> JavaScript
-              <FontAwesomeIcon icon={['fab', 'node']} size="3x" /> Node.js
-              <FontAwesomeIcon icon={['fab', 'react']} size="3x" /> React, Redux
-              <FontAwesomeIcon icon={['fab', 'ellipsis-h']} size="3x" />
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'html5']} size="3x" />
+                <p>HTML5</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'css3-alt']} size="3x" />
+                <p>CSS3</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'sass']} size="3x" />
+                <p>Sass</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'bootstrap']} size="3x" />
+                <p>Bootstrap</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'js-square']} size="3x" />
+                <p>JavaScript</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'node']} size="3x" />
+                <p>Node.js</p>
+              </div>
+
+              <div className="pw__logo">
+                <FontAwesomeIcon icon={['fab', 'react']} size="3x" />
+                <p>React, Redux</p>
+              </div>
 
               <span>||</span>
 
