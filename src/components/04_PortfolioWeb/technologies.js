@@ -1,6 +1,8 @@
 // == Npm import
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Carousel from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 // == Import
 import './portfolioWeb.scss';
