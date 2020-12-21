@@ -40,11 +40,12 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-size: 1.3rem;
 }
 
 .pw__technologies{
- // background-color: rgb(46, 44, 44);
-  border: 1px solid #fff;
+  background-color: #fff;
+  border: 1px solid rgb(0, 0, 0);
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -53,7 +54,7 @@
 }
 
 .pw__title{
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -61,7 +62,7 @@
 }
 
 .pw__technologies--description{
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   line-height: 20px;
   margin-left: 60px;
@@ -73,19 +74,28 @@
   margin-top: 20px;
 
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+ /* display: flex;
+  flex-wrap: wrap; */
+  //justify-content: space-around;
   align-items: center;
 
   padding-top: 50px;
+
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
 }
 
 
 .pw__logo{
   text-align: center;
   padding-bottom: 20px;
+  color: black;
 
+  flex: 1 0 250px;
+  margin-left: .5rem;
+  scroll-snap-align: start;
 }
 
 .icon{

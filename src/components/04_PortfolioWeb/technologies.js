@@ -1,8 +1,6 @@
 // == Npm import
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Carousel from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
 
 // == Import
 import './portfolioWeb.scss';
@@ -16,98 +14,97 @@ function Technologies() {
         <p className="pw__technologies--description">
           Here you can find some of the stuff that I use.
         </p>
-        <div className="pw__technologies--logos">
-          <FontAwesomeIcon icon={['fas', 'chevron-left']} size="3x" className="icon" />
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'html5']} size="3x" className="icon" />
+        <ul className="pw__technologies--logos">
+
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'html5']} size="3x" color="#CE5634" className="icon" />
             <p>HTML5</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'css3-alt']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'css3-alt']} size="3x" color="#379AD5" className="icon" />
             <p>CSS3</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'sass']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'sass']} size="3x" color="#CE679A" className="icon" />
             <p>Sass</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'bootstrap']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'bootstrap']} size="3x" color="#563D7C" className="icon" />
             <p>Bootstrap</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'js-square']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'js-square']} size="3x" color="#F7DF1E" className="icon" />
             <p>JavaScript</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'node']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'node']} size="3x" color="#71B352" className="icon" />
             <p>Node.js</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'react']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'react']} size="3x" color="#4AD5FF" className="icon" />
             <p>React, Redux</p>
-          </div>
+          </li>
 
-          <span className="pw__logo--span pw__logo icon">||</span>
+          <li className="pw__logo--span pw__logo icon">||</li>
 
-          <div className="pw__logo">
+          <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'git']} size="3x" className="icon" />
             <p>Git</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
+          <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'github']} size="3x" className="icon" />
             <p>Github</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
+          <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'slack']} size="3x" className="icon" />
             <p>Slack</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'discord']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'discord']} size="3x" color="#6F88DF" className="icon" />
             <p>Discord</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'trello']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'trello']} size="3x" color="#008EE1" className="icon" />
             <p>Trello</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'yarn']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'yarn']} size="3x" color="#2C8EBB" className="icon" />
             <p>Yarn</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'npm']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'npm']} size="3x" color="#CB3837" className="icon" />
             <p>Npm</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
+          <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'linux']} size="3x" className="icon" />
             <p>Linux</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fa', 'code']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fa', 'code']} size="3x" color="#2CA4F1" className="icon" />
             <p>VS Code</p>
-          </div>
+          </li>
 
-          <div className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'font-awesome-flag']} size="3x" className="icon" />
+          <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'font-awesome-flag']} size="3x" color="#1661A5" className="icon" />
             <p>Font Awesome</p>
-          </div>
+          </li>
 
-          <FontAwesomeIcon icon={['fas', 'chevron-right']} size="3x" className="icon" />
-        </div>
+        </ul>
       </section>
     </>
   );
