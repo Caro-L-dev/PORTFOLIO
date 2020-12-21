@@ -1,8 +1,8 @@
 @use 'src/styles/vars' as vars;
 
 .portfolioWeb{
-  background-color: vars.$bg-primary;
-  padding-top: 45px;
+  background-color: #2D353F;
+  padding-top: 45rem;
   height: 100vh;
   padding-top: 100px;
   padding-bottom: 45px;
@@ -44,8 +44,8 @@
 }
 
 .pw__technologies{
-  background-color: #fff;
-  border: 1px solid rgb(0, 0, 0);
+ // background-color: rgb(226, 226, 226);
+  border: 1px solid #fff;
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -54,7 +54,7 @@
 }
 
 .pw__title{
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -62,7 +62,7 @@
 }
 
 .pw__technologies--description{
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   line-height: 20px;
   margin-left: 60px;
@@ -91,7 +91,7 @@
 .pw__logo{
   text-align: center;
   padding-bottom: 20px;
-  color: black;
+  font-size: 1rem;
 
   flex: 1 0 250px;
   margin-left: .5rem;
@@ -100,6 +100,17 @@
 
 .icon{
   margin-bottom: 10px;
+
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.icon:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);  
+  
 }
 
 .pw__logo--span{
