@@ -13,14 +13,14 @@ function NavBar() {
           <li className="logo">
             <a href="#" alt="Logo made by me here" className="nav-link">
               <span className="link-text logo-text">CL</span>
-              <FontAwesomeIcon className="icons" icon="plus" size="6x" />
+              <FontAwesomeIcon className="icons" icon="plus" size="6x" color="#e6a336" />
             </a>
           </li>
 
           {/* WELCOME */}
           <li className="nav-item">
             <a href="/" className="nav-link">
-              <FontAwesomeIcon className="icons" icon="home" size="2x" />
+              <FontAwesomeIcon className="icons" icon="home" size="2x" color="#e6a336" />
               <span className="link-text">Welcome</span>
             </a>
           </li>
@@ -28,7 +28,7 @@ function NavBar() {
           {/* WHAT I DO */}
           <li className="nav-item">
             <a href="/what-i-do" className="nav-link">
-              <FontAwesomeIcon className="icons" icon="lightbulb" size="2x" />
+              <FontAwesomeIcon className="icons" icon="lightbulb" size="2x" color="#e6a336" />
               <span className="link-text">What I do</span>
             </a>
           </li>
@@ -36,7 +36,7 @@ function NavBar() {
           {/* ABOUT */}
           <li className="nav-item">
             <a href="/about" className="nav-link">
-              <FontAwesomeIcon className="icons" icon="info-circle" size="2x" />
+              <FontAwesomeIcon className="icons" icon="info-circle" size="2x" color="#e6a336" />
               <span className="link-text">About</span>
             </a>
           </li>
@@ -44,7 +44,7 @@ function NavBar() {
           {/* CONTACT */}
           <li className="nav-item">
             <a href="/contact" className="nav-link">
-              <FontAwesomeIcon className="icons" icon="envelope" size="2x" />
+              <FontAwesomeIcon className="icons" icon="envelope" size="2x" color="#e6a336" />
               <span className="link-text">Contact</span>
             </a>
           </li>

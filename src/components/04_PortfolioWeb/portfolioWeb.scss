@@ -1,7 +1,7 @@
 @use 'src/styles/vars' as vars;
 
 .portfolioWeb{
-  background-color: #2D353F;
+  background-color: vars.$bg-primary;
   height: 100vh;
   padding-top: 100px;
   padding-bottom: 45px;
@@ -11,8 +11,6 @@
 }
 
 .pw__container{
-  //background-color: rgb(94, 78, 78);
-
   max-width: 1980px;
   height: 1000px;
 
@@ -24,21 +22,24 @@
   justify-content: center;
   margin: 0 auto;
 
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+
+  
 }
 
 .pw__container__title{
-    //background-color: blue;
     text-transform: uppercase;
-    color: #fff;
+    color: vars.$text-secondary;
 
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 .pw__container__description{
-    color: #fff;
-    text-transform: uppercase;
+    color: vars.$text-primary;
+
     font-size: 1.3rem;
 
     display: flex;
@@ -47,27 +48,37 @@
 }
 
 .pw__technologies{
- // background-color: rgb(226, 226, 226);
-  border: 3px solid #fff;
+  background-color: rgba(0,0,0,0.2);
+
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
+
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
 
   //flex: 2;
+
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+
 }
 
+
 .pw__title{
-  color: #fff;
+  color: vars.$text-secondary;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 30px;
+
 }
 
 .pw__technologies--description{
   color: #fff;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   line-height: 20px;
   margin-left: 60px;
 }
@@ -104,13 +115,14 @@
   -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  
 }
 
 .icon:hover{
   -webkit-transform: scale(1.3);
   transform: scale(1.3);  
-  
+  cursor: pointer;
 }
 
 .pw__logo--span{
@@ -119,8 +131,9 @@
 }
 
 .pw__projects{
-  background-color: rgb(46, 44, 44);
-  border: 1px solid black;
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+  background-color: rgba(0,0,0,0.2);
+
   padding: 30px;
   margin-bottom: 50px;
 
@@ -129,12 +142,40 @@
   justify-content: space-between;
 
   flex: 2;
+
+  border-radius: 20px;
+
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  //backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .pw__img{
   background-color: rgb(128, 128, 128);
   width: 300px;
   height: 200px;
+
+  border-radius: 20px;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+
   margin: 20px;
   margin-top: 50px ;
+
+  transition: .5s ease;
+  cursor: pointer;
+
+  opacity: 0.50;
+}
+
+.pw__img:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);  
+  cursor: pointer;
+  border: #fff 8px inset;
+  border-radius: 50px;
+  opacity: 1;
 }
