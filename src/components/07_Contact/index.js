@@ -10,8 +10,8 @@ import './contact.scss';
 function Contact() {
   return (
     <>
-      <div className="contact">
-        <div className="contact__container">
+      <section className="contact">
+        <main className="contact__container">
           <div className="contact__container--title">
             <h1>Contact</h1>
           </div>
@@ -19,7 +19,7 @@ function Contact() {
             <div
               className="contact__container__description--img"
               src=""
-              alt="contact image"
+              alt="contact drawing by me"
             />
             <div className="contact__container__description--emailPhoneLogos">
               <p className="contact__container__description--email">
@@ -39,8 +39,8 @@ function Contact() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </main>
+      </section>
     </>
   );
 }

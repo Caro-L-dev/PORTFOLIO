@@ -11,7 +11,7 @@ import './portfolioWeb.scss';
 function PortfolioWeb() {
   return (
     <>
-      <div className="portfolioWeb">
+      <section className="portfolioWeb">
         <main className="pw__container">
           <h1 className="pw__container__title">Web Development</h1>
           <p className="pw__container__description">
@@ -26,7 +26,7 @@ function PortfolioWeb() {
           <Technologies />
           <ProjectsWeb />
         </main>
-      </div>
+      </section>
     </>
   );
 }

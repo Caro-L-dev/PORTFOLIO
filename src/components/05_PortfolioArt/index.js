@@ -7,9 +7,9 @@ import './portfolioArt.scss';
 
 // == Composant
 const PortfolioArt = () => (
-  <div className="portfolioArt">
+  <section className="portfolioArt">
     <p>Portfolio Art</p>
-  </div>
+  </section>
 );
 
 // == Export

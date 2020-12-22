@@ -41,7 +41,7 @@ function Welcome() {
 
   return (
     <>
-      <div className="welcome">
+      <section className="welcome">
         <div className="welcome__container">
           <div className="welcome__container__sectionFirst">
             <h3 className="welcome__container__sectionFirst--title">PORTFOLIO </h3>
@@ -59,7 +59,7 @@ function Welcome() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

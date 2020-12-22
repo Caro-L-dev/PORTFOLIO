@@ -2,16 +2,16 @@
 
 .portfolioWeb{
   background-color: #2D353F;
-  padding-top: 45rem;
   height: 100vh;
   padding-top: 100px;
   padding-bottom: 45px;
-  overflow: hidden; /* Hide scrollbars */
+
+  /* Hide scrollbars */
+  overflow: hidden; 
 }
 
 .pw__container{
   //background-color: rgb(94, 78, 78);
-  margin: 0 auto;
 
   max-width: 1980px;
   height: 1000px;
@@ -22,13 +22,15 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+
 }
 
 .pw__container__title{
     //background-color: blue;
-    color: #fff;
     text-transform: uppercase;
-  
+    color: #fff;
+
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 30px;
@@ -37,20 +39,22 @@
 .pw__container__description{
     color: #fff;
     text-transform: uppercase;
+    font-size: 1.3rem;
+
     display: flex;
     flex-direction: column;
     padding: 10px;
-    font-size: 1.3rem;
 }
 
 .pw__technologies{
  // background-color: rgb(226, 226, 226);
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
+  border-radius: 10px;
 
-  flex: 2;
+  //flex: 2;
 }
 
 .pw__title{
@@ -69,14 +73,10 @@
 }
 
 .pw__technologies--logos{
-  //background-color: rgb(102, 102, 67);
   color: #fff;
   margin-top: 20px;
 
   width: 100%;
- /* display: flex;
-  flex-wrap: wrap; */
-  //justify-content: space-around;
   align-items: center;
 
   padding-top: 50px;
@@ -89,13 +89,13 @@
 
 
 .pw__logo{
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 1rem;
-
   flex: 1 0 250px;
   margin-left: .5rem;
   scroll-snap-align: start;
+
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1rem;
 }
 
 .icon{
@@ -127,10 +127,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  flex: 2;
 }
 
 .pw__img{
-  background-color: rgb(124, 123, 123);
+  background-color: rgb(128, 128, 128);
   width: 300px;
   height: 200px;
   margin: 20px;

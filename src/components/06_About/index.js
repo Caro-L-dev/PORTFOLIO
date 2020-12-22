@@ -11,7 +11,7 @@ import './about.scss';
 function About() {
   return (
     <>
-      <div className="about">
+      <section className="about">
         <div className="about__container-all">
           <h1 className="about__title">
             About
@@ -27,7 +27,7 @@ function About() {
             <Avatar />
           </main>
         </div>
-      </div>
+      </section>
     </>
   );
 }

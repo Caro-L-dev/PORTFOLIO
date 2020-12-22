@@ -14,7 +14,7 @@ function Hobbies() {
         <h1 className="about__container--hobbies-title">
           Hobbies
         </h1>
-        <div className="about__container--hobbies-allLogos">
+        <main className="about__container--hobbies-allLogos">
           <a>
             <FontAwesomeIcon icon={['fas', 'dice']} size="2x" />
           </a>
@@ -55,7 +55,7 @@ function Hobbies() {
             <FontAwesomeIcon icon={['fa', 'palette']} size="2x" />
           </a>
 
-        </div>
+        </main>
       </section>
     </>
   );

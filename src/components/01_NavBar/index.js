@@ -6,12 +6,12 @@ import ToggleSwitch from '../ToggleSwitch';
 function NavBar() {
   const [value, setValue] = useState(false);
   return (
-    <div>
+    <section>
       {/* LOGO */}
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logo">
-            <a href="#" className="nav-link">
+            <a href="#" alt="Logo made by me here" className="nav-link">
               <span className="link-text logo-text">CL</span>
               <FontAwesomeIcon className="icons" icon="plus" size="6x" />
             </a>
@@ -50,16 +50,16 @@ function NavBar() {
           </li>
 
           {/* TOGGLE SWITCH */}
-          <div className="switch">
+          <li className="switch">
             <ToggleSwitch
               isOn={value}
               onColor="#6649b8"
               handleToggle={() => setValue(!value)}
             />
-          </div>
+          </li>
         </ul>
       </nav>
-    </div>
+    </section>
   );
 }
 

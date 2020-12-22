@@ -8,9 +8,9 @@ import './about.scss';
 function Avatar() {
   return (
     <>
-      <div className="about__container--avatar">here</div>
+      <img src="#" alt="Avatar draw by me" className="about__container--avatar" />
       <div className="about__container--CV">
-        <a href="CV_DEV_Caroline_Liard_01.jpg" download>
+        <a href="CV_DEV_Caroline_Liard_01.jpg" alt="download CV" download>
           <button type="button" className="about__container--CV-button">
             Download CV
           </button>

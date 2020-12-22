@@ -11,7 +11,7 @@ import './whatido.scss';
 function WhatIDo() {
   return (
     <>
-      <div className="whatIDo">
+      <section className="whatIDo">
 
         <ul className="wid__container">
           <li className="wid__li">
@@ -23,9 +23,13 @@ function WhatIDo() {
             </h2>
           </li>
 
-          <div className="wid__card--container">
+          <main className="wid__card--container">
             <li className="wid__card wid__li ">
-              <img className="wid__img" src={img1} alt="dev img" />
+              <img
+                className="wid__img"
+                src={img1}
+                alt="development portfolio"
+              />
 
               <article className="wid__card-body">
                 <header className="wid__card-body-header">
@@ -59,7 +63,7 @@ function WhatIDo() {
             </li>
 
             <li className="wid__card wid__li">
-              <img className="wid__img" src={img2} alt="art img" />
+              <img className="wid__img" src={img2} alt="art portfolio" />
               <article className="wid__card-body">
                 <header className="wid__card-body-header">
                   <span className="wid__card__title">
@@ -91,10 +95,10 @@ function WhatIDo() {
                 </header>
               </article>
             </li>
-          </div>
+          </main>
         </ul>
 
-      </div>
+      </section>
     </>
   );
 }

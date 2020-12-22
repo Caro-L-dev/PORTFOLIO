@@ -19,7 +19,7 @@ import Contact from '../07_Contact';
 // == Composant
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <section className="portfolio">
       <NavBar />
       <BrowserRouter>
         <Route exact path="/" component={Welcome} />
@@ -30,7 +30,7 @@ function Portfolio() {
         <Route path="/contact" component={Contact} />
       </BrowserRouter>
 
-    </div>
+    </section>
   );
 }
 
