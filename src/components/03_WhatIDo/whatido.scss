@@ -50,8 +50,8 @@
   flex-direction: column;
 
   box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
-  border-left: outset orange 20px;
-  border-right: double orange 10px;
+  border-left: outset #6649b8 20px;
+  border-right: double #6649b8 10px;
 
     }
 
@@ -71,14 +71,6 @@
   border-radius: 50px;
   transition: 0.25s;
       
-  }
-
-.wid__img:hover{
-    box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
-    filter: brightness(1.1) contrast(0.95) saturate(1);
-    border-radius: 0px;
-    //border-right: #009DFF inset 30px;
-    border-bottom: black solid 20px;
   }
 
 
@@ -145,7 +137,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4;
   white-space: nowrap;
-  color: orange;
+  color: #6649b8;
   background: #fff;
   border-radius: 25px;
   margin-right: 8px;
@@ -218,4 +210,38 @@ a.whatIDo__button.large{
             font-size: 32px;
         }
     }
+}
+
+// -------------   MEDIA QUERIES 02 -------------- //
+/* Small screens */
+@media only screen and (max-width: 600px) {
+	.wid__card{
+    flex-direction: row;
+
+   // desktop horizontal cards with featured image
+    max-height: 300px; 
+
+    .wid__card__undertitle{
+        font-size: calc(100% + 1vw);
+    }
+
+    .wid__img{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+        max-width: 600px;
+
+        // desktop horizontal cards with featured image
+        max-height: 279px; 
+    }
+}
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+	.wid__card{
+    .wid__card__undertitle{
+        font-size: 32px;
+    }
+}
 }

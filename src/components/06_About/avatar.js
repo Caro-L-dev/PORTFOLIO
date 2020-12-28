@@ -8,13 +8,15 @@ import './about.scss';
 function Avatar() {
   return (
     <>
-      <img src="#" alt="Avatar draw by me" className="about__container--avatar" />
-      <div className="about__container--CV">
-        <a href="CV_DEV_Caroline_Liard_01.jpg" alt="download CV" download>
-          <button type="button" className="about__container--CV-button">
-            Download CV
-          </button>
-        </a>
+      <div className="about__avatar">
+        <img src="#" alt="Avatar draw by me" className="about__container--avatar" />
+        <div className="about__container--CV">
+          <a href="CV_DEV_Caroline_Liard_01.jpg" alt="download CV" download>
+            <button type="button" className="about__container--CV-button">
+              Download CV
+            </button>
+          </a>
+        </div>
       </div>
     </>
   );
