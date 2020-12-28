@@ -50,18 +50,8 @@ function Technologies() {
           <li className="pw__logo--span pw__logo icon">||</li>
 
           <li className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'git']} size="6x" className="icon" />
-            <p>Git</p>
-          </li>
-
-          <li className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'github']} size="6x" className="icon" />
-            <p>Github</p>
-          </li>
-
-          <li className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'slack']} size="6x" className="icon" />
-            <p>Slack</p>
+            <FontAwesomeIcon icon={['fab', 'github']} size="6x" className="icon" color="#fff" />
+            <p>Git, Github</p>
           </li>
 
           <li className="pw__logo">
@@ -85,7 +75,7 @@ function Technologies() {
           </li>
 
           <li className="pw__logo">
-            <FontAwesomeIcon icon={['fab', 'linux']} size="6x" className="icon" />
+            <FontAwesomeIcon icon={['fab', 'linux']} size="6x" className="icon" color="#fff" />
             <p>Linux</p>
           </li>
 

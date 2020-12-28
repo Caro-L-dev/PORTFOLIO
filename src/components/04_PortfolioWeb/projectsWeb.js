@@ -15,29 +15,45 @@ function ProjectsWeb() {
       <section className="pw__projects">
         <h2 className="pw__title">Portfolio</h2>
 
-        <FontAwesomeIcon icon={['fa', 'chevron-left']} size="3x" />
+        <FontAwesomeIcon icon={['fa', 'chevron-left']} size="2x" />
 
-        <img
-          className="pw__img"
-          src={HeroImg}
-          alt="Miniature Hero Website"
-        />
+        <div className="card">
+          <a href="http://34.207.247.234:5000/#/">
+            <img
+              className="pw__img"
+              src={HeroImg}
+              alt="Miniature Hero Website"
+            />
+          </a>
+        </div>
 
-        <img
-          className="pw__img"
-          src={TrexrunImg}
-          alt="Miniature mini game Js T-rex run"
-        />
+        <div className="card">
+          <a href="https://github.com/Caro-L-dev/T-rex-run">
+            <img
+              className="pw__img"
+              src={TrexrunImg}
+              alt="Miniature mini game Js T-rex run"
+            />
+          </a>
+        </div>
 
-        <img
-          className="pw__img"
-          src={PokedexImg}
-          alt="Miniature pokedex"
-        />
+        <div className="card">
+          <img
+            className="pw__img"
+            src={PokedexImg}
+            alt="Miniature pokedex"
+          />
+        </div>
 
-        <div className="pw__img">Miniature 03</div>
+        <div className="card">
+          <div className="pw__img">Miniature 03</div>
+          <div className="info">
+            <h3>Title</h3>
+            <p>Text</p>
+          </div>
+        </div>
 
-        <FontAwesomeIcon icon={['fa', 'chevron-right']} size="3x" />
+        <FontAwesomeIcon icon={['fa', 'chevron-right']} size="2x" />
       </section>
 
     </>

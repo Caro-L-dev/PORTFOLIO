@@ -8,6 +8,7 @@
 
   /* Hide scrollbars */
   overflow: hidden; 
+  box-sizing: border-box;
 }
 
 .pw__container{
@@ -16,7 +17,7 @@
 
   padding: 10px;
 
-  display: flex;
+ // display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -48,21 +49,20 @@
 }
 
 .pw__technologies{
-  background-color: rgba(0,0,0,0.2);
 
   padding: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
   border-radius: 20px;
 
-  border-left: 1px solid #fff;
-  border-top: 1px solid #fff;
+  border-left: 10px dashed #6649b8;
+  border-top: 3px solid #6649b8;
   box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
   //flex: 2;
 
-  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+ // background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
 
 }
 
@@ -128,6 +128,7 @@
 .pw__logo--span{
   font-size: 50px;
   font-weight: bold;
+  color: #14191E;
 }
 
 .pw__projects{
@@ -141,7 +142,7 @@
   flex-direction: row;
   justify-content: space-between;
 
-  flex: 2;
+ // flex: 2;
 
   border-radius: 20px;
 
@@ -152,30 +153,35 @@
   transition: all 0.2s ease-in-out;
 }
 
-.pw__img{
-  background-color: rgb(128, 128, 128);
-  width: 300px;
-  height: 200px;
-
-  border-radius: 20px;
-  border-left: 1px solid #fff;
-  border-top: 1px solid #fff;
-  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
-
-  margin: 20px;
-  margin-top: 50px ;
-
-  transition: .5s ease;
+.card{
+	width: 300px;
+	height: 200px;
+	border-radius: 15px;
+	padding: 1.5rem;
+	background: white;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(black, 0.5);
+  margin: 30px;
   cursor: pointer;
+	&:hover{
+    transform: translateY(20px);
+    background: rgba(black, 0.6);
+    }
+  
 
-  opacity: 0.50;
 }
 
-.pw__img:hover{
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);  
-  cursor: pointer;
-  border: #fff 8px inset;
-  border-radius: 50px;
-  opacity: 1;
-}
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 15px;
+  }
+	
+
