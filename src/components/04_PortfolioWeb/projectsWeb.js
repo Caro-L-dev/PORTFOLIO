@@ -30,6 +30,7 @@ function ProjectsWeb() {
             },
           ]}
         >
+
           <div className="card">
             <a href="http://34.207.247.234:5000/#/">
               <img
