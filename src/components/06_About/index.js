@@ -25,6 +25,7 @@ function About() {
             <Experiences />
             <Hobbies />
             <Avatar />
+
           </main>
         </div>
       </section>

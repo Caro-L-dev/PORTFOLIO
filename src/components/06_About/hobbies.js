@@ -16,55 +16,64 @@ function Hobbies() {
         </h1>
         <ul className="about__container--hobbies-allLogos">
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fas', 'dice']} size="2x" className="icon" />
+              <span className="tooltiptext">Boardgames</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fas', 'dragon']} size="2x" className="icon" />
+              <span className="tooltiptext">Fantasy Art</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fas', 'globe-europe']} size="2x" className="icon" />
+              <span className="tooltiptext">Travel</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fas', 'dumbbell']} size="2x" className="icon" />
+              <span className="tooltiptext">Sport</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'book']} size="2x" className="icon" />
+              <span className="tooltiptext">Read</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'video']} size="2x" className="icon" />
+              <span className="tooltiptext">Create videos</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'cookie']} size="2x" className="icon" />
+              <span className="tooltiptext">Cook</span>
             </a>
           </li>
 
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'paint-brush']} size="2x" className="icon" />
+              <span className="tooltiptext">Drawing</span>
             </a>
           </li>
           <li className="about__container--hobbies-img">
-            <a>
+            <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'palette']} size="2x" className="icon" />
+              <span className="tooltiptext">Art</span>
             </a>
           </li>
 
