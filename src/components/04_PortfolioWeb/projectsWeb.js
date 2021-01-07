@@ -7,7 +7,8 @@ import TrexrunImg from './Trexrun.png';
 import PokedexImg from './Pokedex.jpg';
 
 // == Import scss
-import '@brainhubeu/react-carousel/lib/style.css';
+// import '@brainhubeu/react-carousel/lib/style.css';
+import './arrows.scss';
 import './portfolioWeb.scss';
 
 // == Composant
