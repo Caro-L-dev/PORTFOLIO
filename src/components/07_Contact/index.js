@@ -2,6 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialLinks from '../07_Contact/socialLinks';
+import Avatar from './avatar-contact.png';
 
 // == Import
 import './contact.scss';
@@ -16,26 +17,32 @@ function Contact() {
             <h1>Contact</h1>
           </div>
           <div className="contact__container__description">
-            <div
-              className="contact__container__description--img"
-              src=""
-              alt="contact drawing by me"
-            />
-            <div className="contact__container__description--emailPhoneLogos">
-              <p className="contact__container__description--email">
-                <a>
-                  <FontAwesomeIcon className="contact-icon" icon="envelope" size="1x" />
-                  liardcar@gmail.com
-                </a>
-              </p>
-              <p className="contact__container__description--phone">
-                <a>
-                  <FontAwesomeIcon className="contact-icon" icon="phone-square-alt" size="1x" />
-                  +33 620167545
-                </a>
-              </p>
-              <div className="contact__container__description--logos">
-                <SocialLinks />
+
+            <div className="split left">
+              <img
+                className="contact__container__description--img centered"
+                src={Avatar}
+                alt="contact drawing by me"
+              />
+            </div>
+
+            <div className="split right">
+              <div className="contact__container__description--emailPhoneLogos centered">
+                <p className="contact__container__description--email">
+                  <a>
+                    <FontAwesomeIcon className="contact-icon" icon="envelope" size="1x" color="#e6a336" />
+                    liardcar@gmail.com
+                  </a>
+                </p>
+                <p className="contact__container__description--phone">
+                  <a>
+                    <FontAwesomeIcon className="contact-icon" icon="phone-square-alt" size="1x" color="#e6a336" />
+                    +33 6 20 16 75 45
+                  </a>
+                </p>
+                <div className="contact__container__description--logos">
+                  <SocialLinks />
+                </div>
               </div>
             </div>
           </div>

@@ -22,7 +22,6 @@ function PortfolioWeb() {
             but don’t worry it will be regularly updated as soon as a project is born!
             In the meantime, it will be filled with false data to keep the overall look of the page.
           </p>
-
           <Technologies />
           <ProjectsWeb />
         </main>

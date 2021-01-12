@@ -1,5 +1,5 @@
 // == Npm import
-import React from 'react';
+import React, { useState } from 'react';
 
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import HeroImg from './Hero_miniature.png';

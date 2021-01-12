@@ -15,12 +15,14 @@
   margin-right: auto;
   margin-top: 100px;
   box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
 }
 
 .contact__container--title{
   //background-color: blue;
   width: 20em;
-  font-size: 2rem;
+  font-size: 40px;
   font-weight: 900;
   color: #ececec;
   text-transform: uppercase;
@@ -30,19 +32,21 @@
 
 .contact__container__description{
  // background-color: red;
-  height: 65vh;
+  //height: 65vh;
   width: 150vh;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 135px;
+  min-height: 50%;
+  position: relative;
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+  border-radius: 1000px;
 }
 
 .contact__container__description--img{
-  background-color: #404040;
+  //background-color: #404040;
   height: 50vh;
-  width: 100vh;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .contact__container__description--emailPhoneLogos{
@@ -51,7 +55,9 @@
   margin-top: 1.2em;
   font-size: 1.5em;
   line-height: 35px;
-  color: #404040;
+  padding-bottom: 150px;
+  color: vars.$text-secondary;
+  
 }
 
 .contact__container__description--logos{
@@ -59,38 +65,44 @@
   margin-top: 80px;
 }
 
+.contact-icon{
+  margin-right: 15px;
+}
+
 .img2{
   visibility: hidden;
 }
 
+
+.split{
+  height: 100%;
+  width: 35%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top: 0;
+}
+
+.left{
+  //left: 0;
+}
+
+.right{
+  right: 20em;
+  
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 /* Small screens */
 @media only screen and (max-width: 600px) {
-  .contact {
-
-   background-color: salmon;
-
-   display: inline;
-   justify-content: center;
-   text-align: center;
-  }
-
-  .contact__container {
-    background-color: palegoldenrod;
-    position: relative;
-    height: 500px;
-    width: 300px;
-  }
-
-  .contact__container--title{
-    margin: 10px;
-  }
-
-  .img2{
-    height: 500px;
-    width: 800px;
-
-  }
- 
-
 
 }
