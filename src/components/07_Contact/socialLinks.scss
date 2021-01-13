@@ -71,8 +71,6 @@
 
  /* == LAPTOPS & DESKTOPS == */ 
   @media (min-width: 1025px) and (max-width: 1280px){ 
-
-    
     .socialLinks--logo {
       display:block;
       position:relative;
@@ -96,9 +94,22 @@
 
 /* == TABLETS IPADS PORTRAIT MODE == */ 
 @media (min-width: 768px) and (max-width: 1024px){ 
-  body { 
-      background-color: blue; 
-  } 
+  .socialLinks--logo {
+      display:block;
+      position:relative;
+      width:80px;
+      height:50px;
+      line-height:56px;
+      font-size:30px;
+      text-align:center;
+      text-decoration:none;
+    
+      color: vars.$text-secondary;
+      margin: 0 15px;
+      transition:.5s;
+      background-color: rgb(226, 219, 219);
+      border-radius: 50px;
+    }
 } 
 
 /* -------------------------------------------------------------- */
