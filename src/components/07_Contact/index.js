@@ -30,7 +30,7 @@ function Contact() {
               <div className="contact__container__description--emailPhoneLogos centered">
                 <p className="contact__container__description--email">
                   <a>
-                    <FontAwesomeIcon className="contact-icon" icon="envelope" size="1x" color="#e6a336" />
+                    <FontAwesomeIcon className="contact-icon envelope" icon="envelope" size="1x" color="#e6a336" />
                     liardcar@gmail.com
                   </a>
                 </p>
