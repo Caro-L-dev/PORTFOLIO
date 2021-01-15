@@ -4,6 +4,7 @@
   background-color: vars.$bg-primary;
   padding-top: 45px;
   height: 100vh;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .wid__container{
@@ -19,22 +20,20 @@
 
 
 .wid__title{
-  color: #fff;
+  margin-right: auto;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  font-size: 30px;
+  color: vars.$text-secondary;
+  font-size: 40px;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-bottom: 1.7%;
 }
 
 .wid__undertitle{
-  color: #fff;
-  text-transform: uppercase;
+  color: vars.$text-primary;
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column;
- // font-size: calc(5% + 1vw);
-  padding-bottom: 30px;
+  padding: 10px;
 }
 
 .wid__card--container{
@@ -44,19 +43,22 @@
 .wid__card{
   box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),
   0 2px 2px rgba(0, 0, 0, 0.10);
-	background: #fff;
+	//background: #fff;
   border-radius: 5px;
   display:flex;
   flex-direction: column;
 
   box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
   border-left: outset #6649b8 20px;
+ // border-left: outset  #790974 20px;
   border-right: double #6649b8 10px;
+ //border-right: double 10px #e6a336;
 
     }
 
+
 .wid__img{
-  background-color: grey;
+  //background-color: grey;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,6 +80,7 @@
   display:flex;
   flex-flow: row wrap;
   padding: 30px;
+  
         
   }
 
@@ -86,7 +89,8 @@
   }
 
 .wid__card__title {
-  color: #444;
+ // color: #444;
+ color: #fff;
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
@@ -96,13 +100,15 @@
   font-size: 32px;
   line-height: 1.2;
   font-weight: bold;
-  color: #222;
+  //color: #222;
+  color: #fff;
   margin: .5em 0;
   }
 
 .wid__card__meta{
   margin-bottom: 22px;
-  color: #555;
+  //color: #555;
+  color: rgb(223, 223, 223);
   font-size: 16px;
   text-transform: uppercase;
   }
@@ -110,6 +116,7 @@
 .wid__card__text {
   text-transform: uppercase;
   line-height: 20px;
+  
   }
 
 // BUTTON //
@@ -117,9 +124,9 @@
 // container for button
 .wid__card__button{
   transition: 0.2s;
-  align-self: flex-end;
+  //align-self: flex-end;
 
-  white-space: nowrap;
+ // white-space: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
     
@@ -131,33 +138,34 @@
 
 // single button
 .wid__button--single{
-  display:inline-block;
-  position:relative;
-  font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.4;
-  white-space: nowrap;
-  color: #6649b8;
-  background: #fff;
-  border-radius: 25px;
-  margin-right: 8px;
+ // display:inline-block;
+  //position:relative;
+
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  margin-left: 180px;
+  margin-top: 20px;
+  //color: #6649b8;
+  //color: vars.$text-primary;
+  color: #fff;
+  
   padding: 5px 12px;
-  max-height: 32px;
   border: none;
 
+  background: #6649b8;
+  //margin: auto;
+  width: 330px;
+  height: 35px;
 
-  &.large{
-    text-transform: uppercase;
-    color: black;
-    //  border: 1px solid #E0E0E0;
-    //  background: white;
-    padding: 10px 15px;
-    max-height: 44px;
-    }
+  border-radius: 20em;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
 
   &:hover{
-    border-bottom: orange 1px solid;
-    border-radius: 0px;
+  background: #553c99;
+  //  transform: scale(1.1);
     }
 }
 a.whatIDo__button{

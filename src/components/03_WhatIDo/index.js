@@ -2,7 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img1 from './img1.jpg';
-import img2 from './speed-mating.jpg';
+// import img2 from './speed-mating.jpg';
+import art from './art.jpg';
 
 // == Import
 import './whatido.scss';
@@ -41,12 +42,10 @@ function WhatIDo() {
                   </h3>
                   <p className="wid__card__meta">
                     <span className="wid__card__text">
-                      Quanta autem vis amicitiae sit,
-                      ex hoc intellegi maxime potest,
-                      quod ex infinita societate generis humani,
-                      Quanta autem vis amicitiae sit,
-                      ex hoc intellegi maxime potest,
-                      quod ex infinita societate generis humani.
+                      Having joined the O'clock school labeled
+                      «Grande École du Numérique» in order to
+                      become web developer Fullstack
+                      JavaScript, I show you my projects here.
                     </span>
 
                     <div className="wid__card__button">
@@ -63,7 +62,7 @@ function WhatIDo() {
             </li>
 
             <li className="wid__card wid__li">
-              <img className="wid__img" src={img2} alt="art portfolio" />
+              <img className="wid__img" src={art} alt="art portfolio" />
               <article className="wid__card-body">
                 <header className="wid__card-body-header">
                   <span className="wid__card__title">
@@ -75,12 +74,13 @@ function WhatIDo() {
 
                   <p className="wid__card__meta">
                     <span className="wid__card__text">
-                      Quanta autem vis amicitiae sit,
-                      ex hoc intellegi maxime potest,
-                      quod ex infinita societate generis humani,
-                      Quanta autem vis amicitiae sit,
-                      ex hoc intellegi maxime potest,
-                      quod ex infinita societate generis humani.
+                      Graduated of 2D/3D animation at ECV Lille,
+                      I'm specialized in compositing.
+                      I'm also
+                      a color artist.
+
+                      Very curious and creative,
+                      I like design artistic projects.
                     </span>
 
                     <div className="wid__card__button">
