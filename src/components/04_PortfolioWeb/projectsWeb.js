@@ -19,7 +19,6 @@ function ProjectsWeb() {
   const [show, setShow] = useState(false);
   return (
     <>
-
       <div className="modal0">
         <button
           className="cardModal"
@@ -30,7 +29,11 @@ function ProjectsWeb() {
         >Show Modal
         </button>
 
-        <Modal onClose={() => setShow(false)} show={show} />
+        <div>
+          <Modal title="my modal" onClose={() => setShow(false)} show={show}>
+            <p>This is modal body</p>
+          </Modal>
+        </div>
       </div>
 
       <section className="pw__projects">
