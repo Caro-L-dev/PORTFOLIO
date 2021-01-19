@@ -23,10 +23,6 @@ function PortfolioWeb() {
             but don’t worry it will be regularly updated as soon as a project is born!
             In the meantime, it will be filled with false data to keep the overall look of the page.
           </p>
-          <div className="modal0">
-            <button type="button">Show Modal</button>
-            <Modal />
-          </div>
           <Technologies />
           <ProjectsWeb />
         </main>
