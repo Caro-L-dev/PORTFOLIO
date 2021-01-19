@@ -10,8 +10,10 @@ const Modal = (props) => {
     return null;
   }
   return (
-    <div className="modal">
-      <div className="modal-content">
+    /* bind onClick event on modal which is similar to the close button */
+    /* we allow outside click to close only so we need to prevent for inside click */
+    <div className="modal" onClick={props.onClose}>
+      <div className="modal-content" onClick={event => event.stopPropagation()}>
         <div className="modal-header">
           <h4 className="modal-title">Modal title</h4>
         </div>
