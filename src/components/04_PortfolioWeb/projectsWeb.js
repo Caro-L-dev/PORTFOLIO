@@ -6,6 +6,7 @@ import HeroImg from './Hero_miniature.png';
 import TrexrunImg from './Trexrun.png';
 import PokedexImg from './Pokedex.jpg';
 
+
 // == Import scss
 // import '@brainhubeu/react-carousel/lib/style.css';
 import './arrows.scss';
