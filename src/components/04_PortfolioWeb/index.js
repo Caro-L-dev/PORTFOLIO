@@ -3,7 +3,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Technologies from '../04_PortfolioWeb/technologies';
 import ProjectsWeb from '../04_PortfolioWeb/projectsWeb';
-import Modal from '../Modal/modal';
 
 // == Import
 import './portfolioWeb.scss';

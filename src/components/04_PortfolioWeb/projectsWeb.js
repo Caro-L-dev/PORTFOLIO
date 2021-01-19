@@ -5,7 +5,7 @@ import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import HeroImg from './Hero_miniature.png';
 import TrexrunImg from './Trexrun.png';
 import PokedexImg from './Pokedex.jpg';
-import Modal from '../Modal/modal';
+// import Modal from '../Modal/modal';
 
 // == Import scss
 // import '@brainhubeu/react-carousel/lib/style.css';
@@ -14,28 +14,9 @@ import './portfolioWeb.scss';
 
 // == Composant
 function ProjectsWeb() {
-  /*  Use useState to manage show value.
-   The value is false by default. */
-  const [show, setShow] = useState(false);
+  /* See commit to put modal here */
   return (
     <>
-      <div className="modal0">
-        <button
-          className="cardModal"
-          type="button"
-                /* Handle click button to update show value to true
-                which means we show the modal. */
-          onClick={() => setShow(true)}
-        >Show Modal
-        </button>
-
-        <div>
-          <Modal title="my modal" onClose={() => setShow(false)} show={show}>
-            <p>This is modal body</p>
-          </Modal>
-        </div>
-      </div>
-
       <section className="pw__projects">
         <h2 className="pw__title">Portfolio</h2>
 
@@ -52,14 +33,20 @@ function ProjectsWeb() {
           ]}
         >
 
-          <div className="card">
-            <a href="http://34.207.247.234:5000/#/">
-              <img
-                className="pw__img"
-                src={HeroImg}
-                alt="Miniature Hero Website"
-              />
-            </a>
+          <div className="card card1">
+            <div className="hoverdiv">
+              <p> Title</p>
+              <p> Description</p>
+              <button type="button">
+                <a
+                  aria-label={name}
+                  href="http://34.207.247.234:5000/#/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="hero website"
+                /> Clic here!
+              </button>
+            </div>
           </div>
 
           <div className="card">
