@@ -29,7 +29,8 @@ function ProjectsWeb() {
           onClick={() => setShow(true)}
         >Show Modal
         </button>
-        <Modal show={show} />
+
+        <Modal onClose={() => setShow(false)} show={show} />
       </div>
 
       <section className="pw__projects">
