@@ -1,11 +1,14 @@
 // == Npm import
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Technologies from '../04_PortfolioWeb/technologies';
 import ProjectsWeb from '../04_PortfolioWeb/projectsWeb';
 
-// == Import
+// == Import scss
 import './portfolioWeb.scss';
+import './portfolioWeb-01-large-screens.scss';
+import './portfolioWeb-02-desktops.scss';
+import './portfolioWeb-03-ipads-portrait-mode.scss';
+import './portfolioWeb-04-mobile-devices.scss';
 
 // == Composant
 function PortfolioWeb() {

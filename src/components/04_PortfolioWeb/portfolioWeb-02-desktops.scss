@@ -1,0 +1,209 @@
+@use 'src/styles/vars' as vars;
+
+  /* == LAPTOPS & DESKTOPS == */ 
+  @media (min-width: 1025px) and (max-width: 1280px){ 
+    .portfolioWeb{
+       // background-color: green; 
+        background-color: vars.$bg-primary;
+        height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 45px;
+        overflow: hidden; 
+        box-sizing: border-box;
+      }
+  
+      .pw__container{
+        max-width: 1280px;
+        height: 900px;
+
+        padding-left: 150px;
+        padding-right: 100px;
+    
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+      }
+      
+      .pw__container__title{
+          text-transform: uppercase;
+          color: vars.$text-secondary;
+          font-size: 40px;
+          font-weight: bold;
+          padding-bottom: 30px;
+      }
+      
+      .pw__container__description{
+          color: vars.$text-primary;
+          font-size: 1.3rem;
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+      }
+      
+      .pw__technologies{
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        border-left: 10px dashed #6649b8;
+        border-top: 3px solid #6649b8;
+        box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-in-out;
+      }
+      
+      
+      .pw__title{
+        color: vars.$text-secondary;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 30px;
+      }
+      
+      .pw__technologies--description{
+        color: #fff;
+        line-height: 20px;
+        margin-left: 60px;
+      }
+      
+      .pw__technologies--logos{
+        color: #fff;
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+        padding-top: 50px;
+        display: flex;
+        overflow-x: scroll;
+        padding: 1rem 0;
+        scroll-snap-type: x mandatory;
+      }
+      
+      
+      .pw__logo{
+        flex: 1 0 250px;
+        margin-left: .5rem;
+        scroll-snap-align: start;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 1rem;
+      }
+      
+      .icon{
+        margin-bottom: 10px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        
+      }
+      
+      .icon:hover{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);  
+        cursor: pointer;
+      }
+      
+      .pw__logo--span{
+        font-size: 50px;
+        font-weight: bold;
+        color: #14191E;
+      }
+      
+      
+      // == PROJECTS
+      
+      .pw__projects{
+        height: 38%;
+        background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+        background-color: rgba(0,0,0,0.2);
+        padding: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 20px;
+        border-left: 1px solid #fff;
+        border-top: 1px solid #fff;
+        box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-in-out;
+      }
+      
+      .card{
+        height: 80%;
+      //  position: relative;
+      //  display: block;
+
+        //width: 150px;
+        //height: 150px;
+
+        background: #e6a336;
+        border-radius: 15px;
+        transition: 0.4s ease-in-out;
+        box-shadow: 0px 7px 10px rgba(black, 0.5);
+        margin: 30px;
+        transform: scale(1);
+      }
+  
+  
+      .card1{
+        background: url('Hero_miniature.png');
+        background-size: cover;
+      }
+  
+      .card2{
+        background: url('Trexrun.png');
+        background-size: cover;
+      }
+  
+      .card3{
+        background: url('Pokedex.jpg');
+        background-size: cover;
+      }
+  
+      .hoverdiv{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 24px;
+        background: rgba(0,0,0,0.8);
+        color: #fff;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+        transition-delay: 0.3s;
+        box-sizing: border-box;
+        border-radius: 15px;
+      }
+  
+      .hoverdiv--title{
+        padding-bottom: 20px;
+      }
+  
+      .hoverdiv--description{
+        padding-bottom: 20px;
+        font-size: 90%;
+      }
+  
+      .hoverdiv__container--links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+  
+      .pw--logo{
+        padding: 20px;
+        cursor: pointer;
+      }
+  
+      .card:hover .hoverdiv, .card:active .hoverdiv{
+        opacity: 1;
+      }
+  
+      .card:hover{
+        transform: scale(1.03);
+      }
+} 

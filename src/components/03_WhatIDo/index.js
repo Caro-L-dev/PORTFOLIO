@@ -2,11 +2,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import img1 from './img1.jpg';
-// import img2 from './speed-mating.jpg';
 import art from './art.jpg';
 
-// == Import
-import './whatido.scss';
+// == Import scss
+import './whatido-00.scss';
+import './whatido-01-large-screens.scss';
+import './whatido-02-desktops.scss';
+import './whatido-03-ipads-portrait-mode.scss';
+import './whatido-04-mobile-devices.scss';
 
 // == Composant
 function WhatIDo() {

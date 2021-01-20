@@ -1,0 +1,157 @@
+@use 'src/styles/vars' as vars;
+
+.whatIDo{
+  background-color: vars.$bg-primary;
+  padding-top: 45px;
+  height: 100vh;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.wid__container{
+  display:block;
+  margin: 0 auto;
+  max-width: 1160px;
+  padding:30px;
+}
+
+.wid__img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow:hidden; 
+  width: 200%;
+  height: 300px; 
+  transform: scale(.9);
+  border-radius: 50px;
+  transition: 0.25s;        
+}
+
+.wid__title{
+  margin-right: auto;
+  text-transform: uppercase;
+  color: vars.$text-secondary;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 1.7%;
+}
+
+
+.wid__li {
+  margin: 30px;
+}
+
+.wid__undertitle{
+  color: vars.$text-primary;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.wid__card--container{
+  padding-top: 10px;
+}
+
+.wid__card{
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),
+  0 2px 2px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+  display:flex;
+  box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
+  border-left: dashed #6649b8 10px;
+  border-top: solid 3px #6649b8;
+}
+
+    .wid__card{
+      .wid__card__undertitle{
+          font-size: 32px;
+      }
+    }
+
+  .wid__card-body{
+    display:flex;
+    flex-flow: row wrap;
+    padding: 30px;
+  }
+  
+  .wid__card__title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .wid__card__undertitle{
+    line-height: 1.2;
+    font-weight: bold;
+    color: #fff;
+    margin: .5em 0;
+  }
+  
+  .wid__card__meta{
+    margin-bottom: 22px;
+    color: rgb(223, 223, 223);
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .wid__card__text {
+    text-transform: uppercase;
+    line-height: 20px;
+  }
+
+/* == BUTTON == */
+        
+    // container for button
+    .wid__card__button{
+      transition: 0.2s;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+        
+      // hide scrollbars chrome / IE10+ & Edge
+      &::-webkit-scrollbar { display: none; }
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      -ms-overflow-style: none;
+    }
+    
+    // single button
+    .wid__button--single{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      letter-spacing: 2px;
+    
+      margin-left: 180px;
+      margin-top: 20px;
+      color: #fff;
+      
+      padding: 5px 12px;
+      border: none;
+      background: #6649b8;
+      width: 330px;
+      height: 35px;
+    
+      border-radius: 20em;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+    
+      &:hover{
+      background: #553c99;
+        }
+    }
+    a.whatIDo__button{
+        cursor: pointer;
+        &:hover,
+        &:visited,
+        &:active{
+            color: white;
+        }
+    }
+    a.whatIDo__button.large{
+        &:visited,
+        &:hover,
+        &:active{
+            color: black;
+        }
+    }

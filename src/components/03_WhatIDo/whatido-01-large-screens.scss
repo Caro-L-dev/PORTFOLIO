@@ -1,0 +1,41 @@
+@use 'src/styles/vars' as vars;
+
+ /* == LARGE SCREENS == */ 
+  @media (min-width: 1281px) { 
+  .whatIDo{
+    //background-color: white; 
+  }
+  
+  
+  .wid__card-body-header{
+    flex: 100%;
+  }
+  
+    .wid__card__undertitle{
+      font-size: 32px;
+    }
+
+
+
+  // Horizontal kicks in
+@media only screen and (min-width: 768px) {
+.wid__card{
+  flex-direction: row;
+  // desktop horizontal cards with featured image
+  max-height: 279px; 
+
+    .wid__card__undertitle{
+      font-size: calc(100% + 1vw);
+    }
+
+    .wid__img{
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 0;
+      max-width: 600px;
+      // desktop horizontal cards with featured image
+      max-height: 279px; 
+    }
+}
+}   
+} 

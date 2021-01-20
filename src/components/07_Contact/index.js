@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SocialLinks from '../07_Contact/socialLinks';
 import Avatar from './avatar-contact.png';
 
-// == Import
+// == Import scss
 import './contact.scss';
 
 // == Composant

@@ -1,0 +1,31 @@
+@use 'src/styles/vars' as vars;
+
+ /* == TABLETS & IPADS PORTRAIT MODE == */ 
+  @media (min-width: 768px) and (max-width: 1024px){ 
+    .wid__container{
+      height: 80vh;
+      width: 65vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      box-sizing: border-box;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+    }
+  
+    .wid__img{
+      display: none;  
+    }
+      
+    .wid__button--single{
+      margin-left: 265px;
+      margin-top: 20px;
+      width: 330px;
+      height: 80px;
+    }
+  }
+  
+    .wid__card__undertitle{
+      font-size: 32px;
+    }
+  

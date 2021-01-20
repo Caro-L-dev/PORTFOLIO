@@ -1,0 +1,35 @@
+@use 'src/styles/vars' as vars;
+  
+  /* == LAPTOPS & DESKTOPS == */ 
+  @media (min-width: 1025px) and (max-width: 1280px){ 
+    .wid__container{
+      display:block;
+      margin: 0 auto;
+      max-width: 1160px;
+      padding:30px;
+    }
+    
+    // Horizontal kicks in
+  @media only screen and (min-width: 768px) {
+	    .wid__card{
+        flex-direction: row;
+
+        // desktop horizontal cards with featured image
+        max-height: 279px; 
+
+      .wid__card__undertitle{
+        font-size: calc(100% + 1vw);
+      }
+
+      .wid__img{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+        max-width: 600px;
+        // desktop horizontal cards with featured image
+        max-height: 279px; 
+      }
+	  }
+  }
+
+} 
