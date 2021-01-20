@@ -22,6 +22,7 @@ import {
   faChevronLeft,
   faEllipsisH,
   faCode,
+  faExternalLinkAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 
@@ -93,4 +94,5 @@ library.add(
   faLinux,
   faCode,
   faFontAwesomeFlag,
+  faExternalLinkAlt,
 );

@@ -33,13 +33,18 @@ function Technologies() {
           </li>
 
           <li className="pw__logo">
+            <FontAwesomeIcon icon={['fab', 'bootstrap']} size="6x" color="#563484" className="icon" />
+            <p>Bootstrap</p>
+          </li>
+
+          <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'js-square']} size="6x" color="#F7DF1E" className="icon" />
-            <p>JavaScript</p>
+            <p>JavaScript, Typescript</p>
           </li>
 
           <li className="pw__logo">
             <FontAwesomeIcon icon={['fab', 'node']} size="6x" color="#71B352" className="icon" />
-            <p>Node.js</p>
+            <p>Node.js, Express</p>
           </li>
 
           <li className="pw__logo">

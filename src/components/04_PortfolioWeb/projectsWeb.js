@@ -1,11 +1,7 @@
 // == Npm import
-import React, { useState } from 'react';
-
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
-import HeroImg from './Hero_miniature.png';
-import TrexrunImg from './Trexrun.png';
-import PokedexImg from './Pokedex.jpg';
-// import Modal from '../Modal/modal';
 
 // == Import scss
 // import '@brainhubeu/react-carousel/lib/style.css';
@@ -35,44 +31,78 @@ function ProjectsWeb() {
 
           <div className="card card1">
             <div className="hoverdiv">
-              <p> Title</p>
-              <p> Description</p>
-              <button type="button">
-                <a
-                  aria-label={name}
-                  href="http://34.207.247.234:5000/#/"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="hero website"
-                /> Clic here!
-              </button>
+              <p className="hoverdiv--title"> HERO </p>
+              <p className="hoverdiv--description">  Website Point and Click game where there are several playable stories.</p>
+              <ul className="hoverdiv__container--links">
+                <li>
+                  <a className="websiteLink pw--logo" href="http://34.207.247.234:5000/#/" target="_blank">
+                    <i
+                      className="websiteLink"
+                      aria-hidden="true"
+                    >
+                      <FontAwesomeIcon icon={['fas', 'external-link-alt']} size="1x" />
+                    </i>
+                  </a>
+                </li>
+
+                <li>
+                  <a className="github pw--logo" href="https://github.com/Caro-L-dev/Hero" target="_blank">
+                    <i
+                      className="github"
+                      aria-hidden="true"
+                    >
+                      <FontAwesomeIcon icon={['fab', 'github']} size="1x" color="white" />
+                    </i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
 
-          <div className="card">
-            <a href="https://github.com/Caro-L-dev/T-rex-run">
-              <img
-                className="pw__img"
-                src={TrexrunImg}
-                alt="Miniature mini game Js T-rex run"
-              />
-            </a>
-          </div>
-
-          <div className="card">
-            <img
-              className="pw__img"
-              src={PokedexImg}
-              alt="Miniature pokedex"
-            />
-          </div>
-
-          <div className="card">
-            <div className="pw__img">Miniature 03</div>
-            <div className="info">
-              <h3>Title</h3>
-              <p>Text</p>
+          <div className="card card2">
+            <div className="hoverdiv">
+              <p className="hoverdiv--title"> T-REX RUN </p>
+              <p className="hoverdiv--description">  T-rex running through the desert, jumping over obstacles.</p>
+              <ul className="hoverdiv__container--links">
+                <li>
+                  <a className="github pw--logo" href="https://github.com/Caro-L-dev/T-rex-run" target="_blank">
+                    <i
+                      className="github"
+                      aria-hidden="true"
+                    >
+                      <FontAwesomeIcon icon={['fab', 'github']} size="1x" color="white" />
+                    </i>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
+
+          <div className="card card3">
+            <div className="hoverdiv">
+              <p className="hoverdiv--title"> POKEDEX </p>
+              <p className="hoverdiv--description">  application that gathers various info on existing pokemons.</p>
+              <ul className="hoverdiv__container--links">
+                <li>
+                  <a className="github pw--logo" href="https://github.com/Caro-L-dev/T-rex-run" target="_blank">
+                    <i
+                      className="github"
+                      aria-hidden="true"
+                    >
+                      <FontAwesomeIcon icon={['fab', 'github']} size="1x" color="white" />
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="card card4">
+            <div className="hoverdiv">
+              <p className="hoverdiv--title"> TO BE CONTINUED </p>
+              <p className="hoverdiv--description"> ??? </p>
+            </div>
+
           </div>
         </Carousel>
       </section>
