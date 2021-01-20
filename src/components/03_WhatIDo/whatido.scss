@@ -60,13 +60,10 @@
     font-weight: bold;
     color: #fff;
     margin: .5em 0;
-
-   // font-size: calc(100% + 1vw);
   }
   
   .wid__card__meta{
     margin-bottom: 22px;
-    //color: #555;
     color: rgb(223, 223, 223);
     font-size: 16px;
     text-transform: uppercase;
@@ -75,7 +72,6 @@
   .wid__card__text {
     text-transform: uppercase;
     line-height: 20px;
-    
   }
 
 /* == BUTTON == */
@@ -83,9 +79,6 @@
     // container for button
     .wid__card__button{
       transition: 0.2s;
-      //align-self: flex-end;
-    
-     // white-space: nowrap;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
         
@@ -97,24 +90,17 @@
     
     // single button
     .wid__button--single{
-     // display:inline-block;
-      //position:relative;
-    
       font-family: 'Bebas Neue', cursive;
       font-size: 20px;
       letter-spacing: 2px;
     
       margin-left: 180px;
       margin-top: 20px;
-      //color: #6649b8;
-      //color: vars.$text-primary;
       color: #fff;
       
       padding: 5px 12px;
       border: none;
-    
       background: #6649b8;
-      //margin: auto;
       width: 330px;
       height: 35px;
     
@@ -124,7 +110,6 @@
     
       &:hover{
       background: #553c99;
-      //  transform: scale(1.1);
         }
     }
     a.whatIDo__button{
@@ -323,28 +308,136 @@
      // background-color: red; 
     background-color: vars.$bg-primary;
     font-family: 'Bebas Neue', cursive;
-    height: 100vh;
+    height: 300vh;
+    padding-top: 10px;
   }
-      
+  .wid__title{
+    padding-bottom: 0.2%;
+  }
+  
   .wid__container{
     height: 100vh;
     width: 50vh;
   }
 
+  .wid__undertitle{
+    display: none;
+  }
+
+  .wid__card--container{
+    padding-top: 0px;
+  }
+
   .wid__img{
     display: none;  
   }
-      
-  .wid__button--single{
-    margin-top: 20px;
-    width: 330px;
-    height: 80px;
-  }   
-  
-  .wid__card-body{
-   // display:flex;
-   // flex-flow: row wrap;
-    padding: 60px;
-  
+
+  .wid__card{
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),
+    0 2px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    display:flex;
+    box-shadow: 0px 14px 12px 0px rgba(0, 0, 0, 0.3);
+    border-left: dashed #6649b8 5px;
+    border-top: solid 1.5px #6649b8;
+    box-sizing: border-box;
   }
+  
+      .wid__card{
+        .wid__card__undertitle{
+            font-size: 20px;
+            width: 50%;
+
+        }
+      }
+  
+    .wid__card-body{
+      display:flex;
+      flex-flow: row wrap;
+      padding: 30px;
+    }
+
+    .wid__card-body-header{
+      flex: 100%;
+    }
+    
+    .wid__card__title {
+      color: #e6a336;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    
+    .wid__card__undertitle{
+      line-height: 1.2;
+      font-weight: bold;
+      color: #fff;
+      margin: .5em 0;
+  
+     // font-size: calc(100% + 1vw);
+    }
+    
+    .wid__card__meta{
+      margin-bottom: 22px;
+      //color: #555;
+      color: rgb(223, 223, 223);
+      font-size: 16px;
+      text-transform: uppercase;
+      width: 50%;
+    }
+    
+    .wid__card__text {
+      text-transform: uppercase;
+      line-height: 20px;   
+    }
+  
+  /* == BUTTON == */
+          
+      // container for button
+      .wid__card__button{
+        transition: 0.2s;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        // hide scrollbars chrome / IE10+ & Edge
+        &::-webkit-scrollbar { display: none; }
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        -ms-overflow-style: none;
+      }
+      
+      .wid__button--single{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+
+        color: #fff;
+        border: none;
+        background: #6649b8;
+        margin-left: 0px;
+        left: 0;
+        width: 450px;
+        height: 50px;
+        border-radius: 20em;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+      
+        &:hover{
+        background: #553c99;
+    
+          }
+      }
+      a.whatIDo__button{
+          cursor: pointer;
+          &:hover,
+          &:visited,
+          &:active{
+              color: white;
+          }
+      }
+      a.whatIDo__button.large{
+          &:visited,
+          &:hover,
+          &:active{
+              color: black;
+          }
+        }
+      
 }
