@@ -6,6 +6,10 @@ import Avatar from './avatar-contact.png';
 
 // == Import scss
 import './contact.scss';
+import './contact-01-large-screens.scss';
+import './contact-02-desktops.scss';
+import './contact-03-ipads-portrait-mode.scss';
+import './contact-04-mobile-devices.scss';
 
 // == Composant
 function Contact() {

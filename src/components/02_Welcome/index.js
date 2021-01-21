@@ -2,9 +2,13 @@ import React, { useRef } from 'react';
 import { useIntersection } from 'react-use';
 
 // == Import
-import './welcome.scss';
 import gsap from 'gsap';
 import { element } from 'prop-types';
+
+// == Scss Import
+import './welcome.scss';
+import './welcome-01-small-screens.scss';
+import './welcome-02-large-screens.scss';
 
 // == Composant
 function Welcome() {

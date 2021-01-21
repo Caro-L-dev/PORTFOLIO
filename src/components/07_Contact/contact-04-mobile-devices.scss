@@ -1,0 +1,64 @@
+@use 'src/styles/vars' as vars;
+
+/* == MOBILE DEVICES == */ 
+    @media (max-width: 480px) { 
+      .contact { 
+          // background-color: red;    
+          background: vars.$bg-primary;
+          height: 100vh;
+          color: #fff;
+         // overflow: hidden; 
+          box-sizing: border-box;
+      }
+      
+      .contact__container {
+        height: 80vh;
+        width: 65vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        box-sizing: border-box;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+      }
+    
+        .contact__container--title{
+        margin-left: 40px;
+      }
+      
+      .contact__container__description{
+        width: 32vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+        min-height: 37%;
+        position: relative;
+        background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+        border-radius: 20em;
+        margin-right: 25%;
+      }
+      
+      .contact__container__description--img{
+        height: 40vh;
+        margin-left: 3%;
+        margin-top: -60%;
+       
+      }
+      
+      .contact__container__description--emailPhoneLogos{
+      //  margin-top: 0.2em;
+        font-size: 1.3em;
+        line-height: 35px;
+        padding-top: 230%;
+        color: vars.$text-secondary;
+      }
+      
+      .contact-icon{
+        margin-right: 10px;
+      }
+      
+      .envelope{
+        display: none;
+      }
+      } 
+        

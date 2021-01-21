@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import './nav.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ToggleSwitch from '../ToggleSwitch';
+
+// == Scss Import
+import './nav.scss';
+import './nav-01-small-screens.scss';
+import './nav-02-large-screens.scss';
 
 function NavBar() {
   const [value, setValue] = useState(false);
