@@ -2,15 +2,16 @@
 
  /* == TABLETS & IPADS PORTRAIT MODE == */ 
   @media (min-width: 768px) and (max-width: 1024px){ 
+
+    .whatIDo{
+      height: 112vh;
+    }
     .wid__container{
+      min-width: 768px;
+      max-width: 1024px;
       height: 80vh;
       width: 65vh;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10%;
-      box-sizing: border-box;
-      font-family: 'Bebas Neue', cursive;
-      font-size: 20px;
+      margin-left: 15%;
     }
   
     .wid__img{
@@ -24,8 +25,3 @@
       height: 80px;
     }
   }
-  
-    .wid__card__undertitle{
-      font-size: 32px;
-    }
-  

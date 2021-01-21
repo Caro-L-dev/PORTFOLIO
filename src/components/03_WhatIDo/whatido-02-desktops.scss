@@ -2,18 +2,20 @@
   
   /* == LAPTOPS & DESKTOPS == */ 
   @media (min-width: 1025px) and (max-width: 1280px){ 
-    .wid__container{
-      display:block;
-      margin: 0 auto;
-      max-width: 1160px;
-      padding:30px;
+    .whatIDo{
+      overflow: hidden;
     }
-    
+    .wid__container{
+      min-width: 1025px;
+      max-width: 1280px;
+      margin-left: 10%;
+      margin-right: 3%;
+    }
+
     // Horizontal kicks in
-  @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
 	    .wid__card{
         flex-direction: row;
-
         // desktop horizontal cards with featured image
         max-height: 279px; 
 
@@ -29,7 +31,6 @@
         // desktop horizontal cards with featured image
         max-height: 279px; 
       }
-	  }
-  }
-
+	    }
+    }
 } 

@@ -2,51 +2,30 @@
 
 /* == TABLETS IPADS PORTRAIT MODE == */ 
  @media (min-width: 768px) and (max-width: 1024px){ 
-  .contact { 
-      //background-color: blue;  
-      background: vars.$bg-primary;
-      height: 100vh;
-      color: #fff;
-      overflow: hidden; 
-      box-sizing: border-box;
-  }
-  
   .contact__container {
+    min-width: 768px;
+    max-width: 1024px;
     height: 80vh;
     width: 65vh;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10%;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
   }
-  
-
   
   .contact__container__description{
     width: 32vh;
+    margin-top: 10%;
+    min-height: 36%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    min-height: 37%;
-    position: relative;
-    background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
-    border-radius: 20em;
   }
   
   .contact__container__description--img{
     height: 50vh;
-    margin-left: 25%;
-    margin-top: -40%;
+    margin-left: 10%;
+    margin-top: -20%;
   }
   
   .contact__container__description--emailPhoneLogos{
-  //  margin-top: 0.2em;
-    font-size: 1.3em;
-    line-height: 35px;
     padding-top: 150%;
-    color: vars.$text-secondary;
   }
   
   .contact-icon{

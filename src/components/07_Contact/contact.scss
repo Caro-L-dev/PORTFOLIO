@@ -1,5 +1,37 @@
 @use 'src/styles/vars' as vars;
 
+.contact { 
+  background: vars.$bg-primary;
+  height: 100vh;
+  color: #fff;
+  /* Hide scrollbars */
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+
+.contact__container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.contact__container__description{
+  position: relative;
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+  border-radius: 20em;
+}
+
+.contact__container__description--emailPhoneLogos{
+  font-size: 1.3em;
+  line-height: 35px;
+  color: vars.$text-secondary;
+}
+
+.contact-icon{
+  margin-right: 10px;
+}
 .contact__container--title{
   margin-right: auto;
   text-transform: uppercase;

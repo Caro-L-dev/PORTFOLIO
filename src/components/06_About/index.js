@@ -4,8 +4,9 @@ import Hobbies from '../06_About/hobbies';
 import Experiences from '../06_About/experiences';
 import Avatar from '../06_About/avatar';
 
-// == Import
+// == Scss Import
 import './about.scss';
+import './about-01-large-screens.scss';
 
 // == Composant
 function About() {

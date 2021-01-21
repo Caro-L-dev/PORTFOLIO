@@ -2,7 +2,7 @@
 
 .whatIDo{
   background-color: vars.$bg-primary;
-  padding-top: 45px;
+  padding-top: 0.1%;
   height: 100vh;
   font-family: 'Bebas Neue', cursive;
 }
@@ -10,7 +10,7 @@
 .wid__container{
   display:block;
   margin: 0 auto;
-  max-width: 1160px;
+ // max-width: 1160px;
   padding:30px;
 }
 
@@ -47,12 +47,9 @@
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 0.5%;
 }
 
-.wid__card--container{
-  padding-top: 10px;
-}
 
 .wid__card{
   box-shadow: 0 0px 1px rgba(0, 0, 0, 0.10),

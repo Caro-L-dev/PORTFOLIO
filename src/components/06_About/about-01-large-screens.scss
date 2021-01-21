@@ -1,0 +1,17 @@
+@use 'src/styles/vars' as vars;
+
+ /* == LARGE SCREENS == */ 
+  @media (min-width: 1281px) { 
+  .about {
+    padding-top: 4%;
+   // overflow: hidden; 
+  }
+  
+  .about__container-all{
+    max-width: 1281px;
+    max-height: 2000px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+} 

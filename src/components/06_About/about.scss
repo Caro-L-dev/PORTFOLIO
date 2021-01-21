@@ -3,37 +3,20 @@
 .about {
   background-color: vars.$bg-primary;
   height: 100vh;
-  padding-top: 100px;
-  padding-bottom: 45px;
-
-  /* Hide scrollbars */
-  overflow: hidden; 
-
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+ // overflow: hidden; 
 }
 
 .about__container-all{
-  max-width: 1980px;
-  height: 1000px;
-
-  padding: 10px;
-
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-
-  font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
-
- // background-color: blue;
-
 }
 
 .about__title{
   text-transform: uppercase;
   color: vars.$text-secondary;
-
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 30px;
@@ -41,20 +24,15 @@
 
 .about__description{
   color: vars.$text-primary;
-
   font-size: 1.3rem;
-
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
 
 .about__container{
-
- // border: 1px solid red;
-
-  height: 850px;
-  box-sizing: border-box;
+ // height: 850px;
+ // box-sizing: border-box;
 } 
 
 .about__container--experiences{
@@ -72,8 +50,6 @@
 }
 
 .about__container--experiences-title{
-  //text-align: center;
-
   font-weight: bold;
   font-size: 30px;
 
