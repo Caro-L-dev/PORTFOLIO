@@ -34,7 +34,6 @@ function Experiences() {
           aliquip ex ea commodo consequat.
         </p>
       </section>
-
     </>
   );
 }

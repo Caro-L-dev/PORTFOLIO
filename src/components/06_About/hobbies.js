@@ -32,7 +32,7 @@ function Hobbies() {
           <li className="about__container--hobbies-img">
             <a className="tooltip">
               <FontAwesomeIcon icon={['fas', 'globe-europe']} size="2x" className="icon" />
-              <span className="tooltiptext">Travel</span>
+              <span className="tooltiptext">Travelling</span>
             </a>
           </li>
 
@@ -46,7 +46,7 @@ function Hobbies() {
           <li className="about__container--hobbies-img">
             <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'book']} size="2x" className="icon" />
-              <span className="tooltiptext">Read</span>
+              <span className="tooltiptext">Reading</span>
             </a>
           </li>
 
@@ -60,7 +60,7 @@ function Hobbies() {
           <li className="about__container--hobbies-img">
             <a className="tooltip">
               <FontAwesomeIcon icon={['fa', 'cookie']} size="2x" className="icon" />
-              <span className="tooltiptext">Cook</span>
+              <span className="tooltiptext">Cooking</span>
             </a>
           </li>
 

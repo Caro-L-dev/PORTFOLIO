@@ -3,15 +3,10 @@
  /* == LARGE SCREENS == */ 
   @media (min-width: 1281px) { 
   .about {
-    padding-top: 4%;
-   // overflow: hidden; 
+    padding-top: 3%;
   }
   
   .about__container-all{
     max-width: 1281px;
-    max-height: 2000px;
-    display: flex;
-    flex-direction: column;
   }
-  
 } 

@@ -7,6 +7,9 @@ import Avatar from '../06_About/avatar';
 // == Scss Import
 import './about.scss';
 import './about-01-large-screens.scss';
+import './about-02-desktops.scss';
+import './about-03-ipads-portrait-mode.scss';
+import './about-04-mobile-devices.scss';
 
 // == Composant
 function About() {
@@ -26,7 +29,6 @@ function About() {
             <Experiences />
             <Hobbies />
             <Avatar />
-
           </main>
         </div>
       </section>

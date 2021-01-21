@@ -1,0 +1,19 @@
+@use 'src/styles/vars' as vars;
+
+ /* == TABLETS & IPADS PORTRAIT MODE == */ 
+  @media (min-width: 768px) and (max-width: 1024px){ 
+    .about{
+      padding-top: 4%;
+      padding-left: 15%;
+      padding-right: 5%;
+    }
+
+    .about__container-all{
+      min-width: 768px;
+      max-width: 1024px;
+    }
+
+    .about__avatar{
+      display: none;
+    }
+  }

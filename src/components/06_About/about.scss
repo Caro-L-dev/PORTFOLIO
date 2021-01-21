@@ -5,13 +5,12 @@
   height: 100vh;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
- // overflow: hidden; 
+  overflow: hidden; 
 }
 
 .about__container-all{
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .about__title{
@@ -25,24 +24,19 @@
 .about__description{
   color: vars.$text-primary;
   font-size: 1.3rem;
-  display: flex;
-  flex-direction: column;
   padding: 10px;
 }
 
 .about__container{
- // height: 850px;
- // box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 } 
 
 .about__container--experiences{
   width: 100vh;
-  height: 50vh;
-
+  height: 75vh;
   padding: 30px;
-  margin-bottom: 50px;
   border-radius: 20px;
-
   border-left: 10px dashed #6649b8;
   border-top: 3px solid #6649b8;
   box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
@@ -52,10 +46,6 @@
 .about__container--experiences-title{
   font-weight: bold;
   font-size: 30px;
-
-  display: flex;
-  flex-direction: column;
-
   color: vars.$text-secondary;
   text-transform: uppercase;
   font-size: 20px;
@@ -67,7 +57,6 @@
   color: vars.$text-secondary;
   text-transform: uppercase;
   padding-bottom: 20px;
-
   line-height: 20px;
   margin-left: 60px;
   padding-right: 20px;
@@ -78,17 +67,15 @@
 
 .about__container--hobbies{
   background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
-  width: 100vh;
-  height: 20vh;
-  padding: 30px;
-  margin-bottom: 50px;
 
-  display: flex;
-  flex-direction: row;
+  height: 75vh;
+  padding: 30px;
+
+  margin-left: 50px;
+
   justify-content: space-between;
 
   border-radius: 20px;
-
   border-left: 1px solid #fff;
   border-top: 1px solid #fff;
 
@@ -97,13 +84,8 @@
 }
 
 .about__container--hobbies-title{
-    //text-align: center;
-
     font-weight: bold;
     font-size: 30px;
-  
-    display: flex;
-    flex-direction: column;
   
     color: vars.$text-secondary;
     text-transform: uppercase;
@@ -114,17 +96,8 @@
 
 .about__container--hobbies-allLogos{
   color: #fff;
-  //margin-top: 20px;
-
   width: 100%;
   align-items: center;
-
-  //padding-top: 50px;
-
-  display: flex;
-  overflow-x: scroll;
-  //padding: 1rem 0;
-  scroll-snap-type: x mandatory;
 }
 
 .hobbies--span{
@@ -136,13 +109,11 @@
 .about__container--hobbies-img{
   flex: 1 0 250px;
   margin-left: .5rem;
-  scroll-snap-align: start;
 
   text-align: center;
   padding-bottom: 20px;
   font-size: 1rem;
   text-decoration-style: none;
-  //flex-wrap: wrap;
 }
 
 .icon{
@@ -164,6 +135,7 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
+
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -197,59 +169,42 @@
 /*-------- AVATAR ---------*/
 
 .about__avatar{
-
-  background-color: #ffff00;
-  align-self: flex-end;
-  width: 100vh;
   text-align: center;
+  width: 50vh;
+  border-radius: 50px;
   display: flex;
+  flex-direction: column;
+  margin-left: 50px;
 }
 
 .about__container--avatar{
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  
-  //flex-direction: row;
-
-  justify-content: center;
-  width: 100vh;
-  height: 200vh;
-
-  padding: 30px;
-  margin-top: 30px;
+  height: 61vh;
   margin-bottom: 50px;
   border-radius: 20px;
 
-  border-left: 10px dashed #6649b8;
-  border-top: 3px solid #6649b8;
   box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
-  transition: all 0.2s ease-in-out;
-
-
-
 }
 
 
 .about__container--CV{
   transition: 0.2s;
-  text-align: center;
-  flex-wrap: wrap;
-  display: flex;
 }
 
 .about__container--CV-button{
-  display:inline-block;
-  position:relative;
-  
-  white-space: nowrap;
-  color: orange;
-  background: #fff;
+  color: #fff;
+  background: #6649b8;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .2em;
   border-radius: 15px;
-  margin-right: 8px;
   padding: 5px 12px;
   height: 42px;
   width: 300px;
   border: none;
+  font-size: 24px;
+  transition: all .3s ease-in-out;
 }
 
+.about__container--CV-button:hover{
+  background: #553c99;
+}
