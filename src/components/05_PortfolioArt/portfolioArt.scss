@@ -1,1 +1,37 @@
 @use 'src/styles/vars' as vars;
+
+
+.portfolioArt{
+  background-color: vars.$bg-primary;
+  height: 100vh;
+  padding-bottom: 45px;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+
+.pa__container__title{
+  text-transform: uppercase;
+  color: vars.$text-secondary;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.pa__container__description{
+color: vars.$text-primary;
+font-size: 1.3rem;
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.pa__title{
+  color: vars.$text-secondary;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+

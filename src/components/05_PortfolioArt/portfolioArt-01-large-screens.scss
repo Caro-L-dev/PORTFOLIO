@@ -1,0 +1,18 @@
+@use 'src/styles/vars' as vars;
+
+  /* == LARGE SCREENS == */ 
+  @media (min-width: 1281px) { 
+    .portfolioArt{
+      padding-top: 3%;
+      height: 120vh;
+    }
+
+    .pa__container{
+      max-width: 1281px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+  }
