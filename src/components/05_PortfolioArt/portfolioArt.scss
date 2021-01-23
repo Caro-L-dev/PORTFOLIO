@@ -10,6 +10,10 @@
   font-size: 20px;
 }
 
+.pa__container{
+ 
+}
+
 
 .pa__container__title{
   text-transform: uppercase;
@@ -19,19 +23,45 @@
   padding-bottom: 30px;
 }
 
-.pa__container__description{
-color: vars.$text-primary;
-font-size: 1.3rem;
-display: flex;
-flex-direction: column;
-padding: 10px;
-}
-
 .pa__title{
   color: vars.$text-secondary;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+.pa__title--deco{
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+  width: 1000px;
+  height: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.pa__description{
+  font-style: italic;
+  color: vars.$text-primary;
+  font-size: 1rem;
+}
+
+.pa__shows--container{
+  margin-left: 5%;
+
+  padding: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.pa__shows--box{
+  width: 854px;
+//  height: 480px;
+
+  margin: 80px 40px;
+}

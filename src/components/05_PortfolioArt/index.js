@@ -2,7 +2,7 @@
 import React from 'react';
 
 import Tools from '../05_PortfolioArt/tools';
-import Videos from '../05_PortfolioArt/videos';
+import Shows from '../05_PortfolioArt/shows';
 import Illustrations from '../05_PortfolioArt/illustrations';
 
 // == Import
@@ -19,11 +19,9 @@ function PortfolioArt() {
       <section className="portfolioArt">
         <main className="pa__container">
           <h1 className="pa__container__title">Animation cinema // Arts</h1>
-          <p className="pa__container__description">
-            Some texts will come out later
-          </p>
+
           <Tools />
-          <Videos />
+          <Shows />
           <Illustrations />
         </main>
       </section>
