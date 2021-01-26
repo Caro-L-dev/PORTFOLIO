@@ -18,7 +18,7 @@ function PortfolioArt() {
     <>
       <section className="portfolioArt">
         <main className="pa__container">
-          <h1 className="pa__container__title">Animation cinema // Arts</h1>
+          <h1 className="pa__container__title">Art Portfolio</h1>
 
           <Tools />
           <Shows />

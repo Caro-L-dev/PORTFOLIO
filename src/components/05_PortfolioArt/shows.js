@@ -8,7 +8,6 @@ function Shows() {
   return (
     <>
       <section className="pa__shows">
-        <h2 className="pa__title">Art Portfolio</h2>
         <div className="pa__title--deco"></div>
         <p className="pa__description">To see these on full size, click on the bottom right of each videos.</p>
 
