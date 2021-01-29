@@ -4,6 +4,7 @@
     @media (max-width: 480px) { 
       .whatIDo{
         height: 150vh;
+        overflow-y: hidden;
       }
       .wid__title{
         padding-bottom: 0.2%;
@@ -31,6 +32,10 @@
                 max-width: 50%;
     
             }
+          }
+
+          .wid__card-body-header{
+            max-width: 480px;
           }
       
           .wid__card__text {
