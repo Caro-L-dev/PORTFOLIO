@@ -1,0 +1,25 @@
+@use 'src/styles/vars' as vars;
+
+  /* == LAPTOPS & DESKTOPS == */ 
+  @media (min-width: 1025px) and (max-width: 1280px){ 
+    .portfolioArt{
+      padding-top: 3%;
+      height: 250vh; 
+      width: 180vh; 
+    }
+
+    .pa__container{
+      max-width: 1280px;
+      min-width: 1025px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 210px;
+      font-size: 20px;
+    }
+
+    .pa__shows--container{
+      margin-left: 15%;
+    }
+    
+} 

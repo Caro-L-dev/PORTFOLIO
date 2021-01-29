@@ -1,0 +1,56 @@
+@use 'src/styles/vars' as vars;
+
+     /* == MOBILE DEVICES == */ 
+    @media (max-width: 480px) { 
+      .portfolioArt{
+        padding-top: 3%;
+        height: 320vh; 
+      }
+  
+      .pa__container{
+        max-width: 480px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 30px;
+        font-size: 20px;
+      }
+
+      .pa__container__title{
+        padding-bottom: 10px;
+      }
+  
+      .pa__shows--container{
+        margin-left: -5%;
+      }
+  
+      .pa__title--deco{
+        width: 300px;
+      }
+  
+      .pa__description{
+        margin-left: 0px;
+        margin-bottom: -40px;
+      }
+  
+      .pa__shows--container{
+        margin-left: 0%;
+      }
+
+      .pa__shows--box{
+        width: 200px;
+        height: 200px;
+        margin: 30px 5px;
+      }
+
+      .pa__illustrations--container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: space-evenly;
+        margin: -5rem; 
+        margin-left: 0px;
+        max-width: 350px;
+      }
+
+  } 

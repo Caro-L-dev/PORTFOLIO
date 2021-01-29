@@ -31,3 +31,40 @@
 
   margin-bottom: 65%;
 }
+
+
+ /* == TABLETS IPADS PORTRAIT MODE == */ 
+ @media (min-width: 768px) and (max-width: 1024px){ 
+  .pa__tools--container{
+    height: 10vh;
+    width: 90vh;
+  
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .pa__tools--container--logo{
+    height: 50px;
+    width: 50px;
+  
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom: 0%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+} 
+
+     /* == MOBILE DEVICES == */ 
+    @media (max-width: 480px) { 
+      .pa__tools--container{
+        display: none;
+      }
+
+  } 
+

@@ -1,0 +1,37 @@
+@use 'src/styles/vars' as vars;
+
+ /* == TABLETS IPADS PORTRAIT MODE == */ 
+  @media (min-width: 768px) and (max-width: 1024px){ 
+    .portfolioArt{
+      padding-top: 3%;
+      height: 250vh; 
+    }
+
+    .pa__container{
+      max-width: 1024px;
+      min-width: 768px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 120px;
+      font-size: 20px;
+    }
+
+    .pa__shows--container{
+      margin-left: -5%;
+    }
+
+    .pa__title--deco{
+      width: 800px;
+    }
+
+    .pa__description{
+      margin-left: 70px;
+      margin-bottom: -20px;
+    }
+
+    .pa__shows--container{
+      margin-left: 10%;
+    }
+
+} 
