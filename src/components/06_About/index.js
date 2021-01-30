@@ -21,8 +21,7 @@ function About() {
             About
           </h1>
           <h2 className="about__description">
-            Know everything about my
-            experiences, and my hobbies.
+            Know everything about me, and my hobbies.
           </h2>
 
           <main className="about__container">
