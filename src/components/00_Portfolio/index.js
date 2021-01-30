@@ -1,6 +1,6 @@
 // == Import npm
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // == Import
 import './styles.scss';
@@ -13,8 +13,7 @@ import PortfolioWeb from '../04_PortfolioWeb';
 import PortfolioArt from '../05_PortfolioArt';
 import About from '../06_About';
 import Contact from '../07_Contact';
-
-// import NotFound from '../NotFound';
+//import NotFoundPage from '../NotFound';
 
 // == Composant
 function Portfolio() {
@@ -29,7 +28,6 @@ function Portfolio() {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
       </BrowserRouter>
-
     </section>
   );
 }

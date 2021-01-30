@@ -181,6 +181,8 @@ strong{
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+
+  
 }
 
 .about__container--avatar{
@@ -194,6 +196,7 @@ strong{
 
 .about__container--CV{
   transition: 0.2s;
+  display: none;
 }
 
 .about__container--CV-button{

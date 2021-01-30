@@ -10,6 +10,8 @@ import './welcome.scss';
 import './welcome-01-small-screens.scss';
 import './welcome-02-large-screens.scss';
 
+import NotFound from '../NotFound';
+
 // == Composant
 function Welcome() {
   const sectionRef = useRef(null);

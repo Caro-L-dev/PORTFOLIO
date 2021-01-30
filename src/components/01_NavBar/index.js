@@ -15,7 +15,7 @@ function NavBar() {
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logo">
-            <a href="#" alt="Logo made by me here" className="nav-link">
+            <a href="/" alt="Logo made by me here" className="nav-link">
               <span className="link-text logo-text">CL</span>
               <FontAwesomeIcon className="icons" icon="plus" size="6x" color="#e6a336" />
             </a>

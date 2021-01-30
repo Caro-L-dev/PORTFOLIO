@@ -8,16 +8,11 @@ import './notfound.scss';
 // == Composant
 const NotFound = () => (
   <>
-    <div className="NotFound">
-      <h1>404</h1>
+    <div className="notFound">
+      <h1 className="notFound__title">404</h1>
       <h2>
-        Image home made
+        A new illustration will soon be there!
       </h2>
-      <Link to="/welcome">
-        <button className="NotFound__button" type="button">
-          Clique ici pour retrouver ton chemin
-        </button>
-      </Link>
     </div>
   </>
 );

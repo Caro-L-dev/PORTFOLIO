@@ -1,2 +1,13 @@
   
 @use 'src/styles/vars' as vars;
+
+.notFound { 
+  background: vars.$bg-primary;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden; 
+ // box-sizing: border-box;
+  text-align: center;
+  padding-top: 20%;
+  margin: auto;
+}
