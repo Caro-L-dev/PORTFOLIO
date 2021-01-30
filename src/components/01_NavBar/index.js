@@ -7,6 +7,8 @@ import './nav.scss';
 import './nav-01-small-screens.scss';
 import './nav-02-large-screens.scss';
 
+import Logo from '../01_NavBar/logo.png';
+
 function NavBar() {
   const [value, setValue] = useState(false);
   return (
@@ -15,9 +17,9 @@ function NavBar() {
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logo">
-            <a href="/" alt="Logo made by me here" className="nav-link">
-              <span className="link-text logo-text"></span>
-              <FontAwesomeIcon className="icons" icon="plus" size="6x" color="#e6a336" />
+            <a href="/" alt="Logo made by me here" className="nav-link link0">
+              <img className="link-text logo-text" src={Logo} alt="Logo" />
+              <FontAwesomeIcon className="icons" icon="plus" size="6x" color="#B6B6B6" />
             </a>
           </li>
 
