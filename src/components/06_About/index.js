@@ -20,6 +20,7 @@ function About() {
           <h1 className="about__title">
             About
           </h1>
+          <div className="about__title--deco" />
           <h2 className="about__description">
             Know everything about me, and my hobbies.
           </h2>

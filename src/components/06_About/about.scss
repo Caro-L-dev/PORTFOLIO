@@ -188,17 +188,17 @@ strong{
 .about__container--avatar{
   height: 70vh;
   width: 38vh;
-
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-left: 100px;
 }
 
+.wip{
+  font-style: italic;
+  font-size: medium;
+  color: vars.$text-primary;
+}
 
 .about__container--CV{
   transition: 0.2s;
-  display: none;
+ // display: none;
 }
 
 .about__container--CV-button{
@@ -209,11 +209,13 @@ strong{
   letter-spacing: .2em;
   border-radius: 15px;
   padding: 5px 12px;
-  height: 42px;
+  //height: 42px;
+  height: 300px;
   width: 300px;
   border: none;
   font-size: 24px;
   transition: all .3s ease-in-out;
+  margin-top: 50%;
 }
 
 .about__container--CV-button:hover{

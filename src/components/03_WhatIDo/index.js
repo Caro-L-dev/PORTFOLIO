@@ -22,6 +22,7 @@ function WhatIDo() {
             <h1 className="wid__title">
               What I Do
             </h1>
+            <div className="wid__title--deco" />
             <h2 className="wid__undertitle">
               Let me show you what kind of things I can do.
             </h2>

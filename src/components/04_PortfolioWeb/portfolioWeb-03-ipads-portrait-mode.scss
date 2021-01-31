@@ -3,7 +3,7 @@
  /* == TABLETS IPADS PORTRAIT MODE == */ 
   @media (min-width: 768px) and (max-width: 1024px){ 
   .portfolioWeb{
-    height: 130vh;
+    height: 140vh;
     padding-top: 5%;
   }
 
@@ -19,6 +19,9 @@
     scroll-snap-type: x mandatory;
   }
 
+  .pw__title--deco{
+    width: 800px;
+  }
 
   .pw__logo{
     flex: 1 0 210px;

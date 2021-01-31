@@ -18,6 +18,14 @@
     padding-bottom: 30px;
 }
 
+.pw__title--deco{
+  background: linear-gradient(45deg, #e6a336, #790974,  #6649b8);
+  width: 1000px;
+  height: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
 .pw__container__description{
   color: vars.$text-primary;
   font-size: 1.3rem;

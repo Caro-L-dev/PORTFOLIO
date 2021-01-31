@@ -6,7 +6,7 @@
       padding-top: 3%;
       padding-left: 10%;
       padding-right: 5%;
-      //background-color: #fff;
+     // background-color: #fff;
     }
 
     .about__container-all{
@@ -17,5 +17,18 @@
     .about__container--experiences-text{
       line-height: 22px;
       font-size: medium;
+    }
+
+    .about__container--avatar{
+      height: 70vh;
+      width: 38vh;
+    
+      position: absolute;
+      bottom: 0;
+    
+    }
+
+    .about__container--CV-button{
+      display: none;
     }
 } 

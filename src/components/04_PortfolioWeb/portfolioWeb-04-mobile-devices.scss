@@ -3,7 +3,7 @@
      /* == MOBILE DEVICES == */ 
     @media (max-width: 480px) { 
       .portfolioWeb{
-        background-color: rgb(207, 156, 156); 
+       // background-color: rgb(207, 156, 156); 
         height: 470vh;
         padding-top: 40px;
       }
@@ -16,6 +16,9 @@
         margin-right: auto;
       }
 
+      .pw__title--deco{
+        width: 300px;
+      }
       .pw__container__title{
         padding-bottom: 10px;
     }

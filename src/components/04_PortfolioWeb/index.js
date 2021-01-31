@@ -17,6 +17,7 @@ function PortfolioWeb() {
       <section className="portfolioWeb">
         <main className="pw__container">
           <h1 className="pw__container__title">Web Development</h1>
+          <div className="pw__title--deco" />
           <p className="pw__container__description">
             Here you are!
           </p>

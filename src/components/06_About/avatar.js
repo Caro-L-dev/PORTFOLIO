@@ -15,6 +15,7 @@ function Avatar() {
           <a href="CV_DEV_Caroline_Liard_01.jpg" alt="download CV" download>
             <button type="button" className="about__container--CV-button">
               Download CV
+              <p className="wip">Under construction</p>
             </button>
           </a>
         </div>
