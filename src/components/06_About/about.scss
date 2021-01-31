@@ -177,7 +177,7 @@ strong{
 .about__avatar{
   text-align: center;
   width: 50vh;
-  border-radius: 50px;
+ // border-radius: 50px;
   display: flex;
   flex-direction: column;
   margin-left: 50px;
@@ -186,11 +186,13 @@ strong{
 }
 
 .about__container--avatar{
-  height: 61vh;
-  margin-bottom: 50px;
-  border-radius: 20px;
+  height: 70vh;
+  width: 38vh;
 
-  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 100px;
 }
 
 

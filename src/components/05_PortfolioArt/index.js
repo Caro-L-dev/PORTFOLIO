@@ -19,13 +19,13 @@ function PortfolioArt() {
       <section className="portfolioArt">
         <main className="pa__container">
           <h1 className="pa__container__title">Art Portfolio</h1>
-          <div className="pa__title--deco"></div>
-
+          <div className="pa__title--deco" />
           <Tools />
           <Shows />
           <Illustrations />
         </main>
       </section>
+
     </>
   );
 }

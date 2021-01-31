@@ -1,5 +1,5 @@
 // == Npm import
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import './illustrations.scss';
 import './portfolioArt.scss';
 
@@ -7,19 +7,21 @@ import './portfolioArt.scss';
 function Illustrations() {
   return (
     <>
-      <section className="pa__illustrations">
-        <div className="pa__illustrations--container">
-          <div className="cell cell-1"></div>
-          <div className="cell cell-2"></div>
-          <div className="cell cell-3"></div>
-          <div className="cell cell-4"></div>
-          <div className="cell cell-5"></div>
-          <div className="cell cell-6"></div>
-          <div className="cell cell-7"></div>
-          <div className="cell cell-8"></div>
-          <div className="cell cell-9"></div>
-        </div>
-      </section>
+      <Suspense fallback={<div>Loading...</div>}>
+        <section className="pa__illustrations">
+          <div className="pa__illustrations--container">
+            <div loading="lazy" className="cell cell-1" />
+            <div className="cell cell-2" />
+            <div className="cell cell-3" />
+            <div className="cell cell-4" />
+            <div className="cell cell-5" />
+            <div className="cell cell-6" />
+            <div className="cell cell-7" />
+            <div className="cell cell-8" />
+            <div className="cell cell-9" />
+          </div>
+        </section>
+      </Suspense>
     </>
   );
 }
